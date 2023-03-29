@@ -1,0 +1,666 @@
+
+	{%load static%}
+	<!DOCTYPE html>
+    <html>
+    
+    <head>
+    <meta charset="utf-8">
+    <title>{{ app_name }} Delivery | Track Now</title>
+    <!-- Stylesheets -->
+    <link href="https://www.expflingdelivery.com/css/bootstrap.css" rel="stylesheet">
+    <link href="https://www.expflingdelivery.com/css/style.css" rel="stylesheet">
+    <link href="https://www.expflingdelivery.com/css/responsive.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    
+        <link rel="stylesheet" type="text/css" href="https://www.expflingdelivery.com/file/style.css" media="all">
+     
+          <link rel="stylesheet" type="text/css" href="https://www.expflingdelivery.com/process/custom-style.css">
+          <link rel="stylesheet" type="text/css" href="https://www.expflingdelivery.com/process/carousel.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css"/>
+          <script type="text/javascript" src="https://www.expflingdelivery.com/process/jquery.min.js.download"></script>
+          <script type="text/javascript" src="https://www.expflingdelivery.com/process/jquery-ui.min.js.download"></script>
+          <script type="text/javascript" src="https://www.expflingdelivery.com/process/bootstrap.min.js.download"></script>
+          <script type="text/javascript" src="https://www.expflingdelivery.com/process/carousel.js.download"></script>
+          <script type="text/javascript" src="https://www.expflingdelivery.com/process/common.js.download"></script>
+    
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    
+        
+        <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    </style>
+    </head>
+    
+    <body class="hidden-bar-wrapper">
+    
+    <div class="page-wrapper">
+         
+        <!-- Preloader -->
+        <div class="preloader"></div>
+         
+         <!-- Main Header / Header Style Two -->
+        <header class="main-header header-style-two">
+            <div class="auto-container">
+                <div class="header-inner">
+                    <!--Header Top-->
+                    <div class="header-top">
+                        <div class="clearfix">
+                            
+                            <!--Top Right-->
+                            <div class="top-right">
+                                <style>
+                                    .colored_icons{
+                                        color: #ef7715 !important;
+                                    }
+                                </style>
+                            
+                                <!-- Right List -->
+                                <ul class="right-list">
+                                    <li><i class="bi bi-envelope colored_icons"></i>{{ email }}</li>
+                                    <li><i class="bi bi-telephone colored_icons"></i>Active 24/7</li>
+                                </ul>
+                                
+                                <!--Language-->
+                                <div class="language dropdown"><a class="btn btn-default dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#"><i class="bi bi-geo-alt-fill colored_icons"></i></a>
+                                    
+                                </div>
+                                
+                                <!--Social Box-->
+                                <ul class="social-box">
+                                    <li>
+                            <div id="google_translate_element"></div>
+    
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                
+                    <!--Header-Upper-->
+                    <div class="header-upper">
+                        
+                        <div class="clearfix">
+                            
+                            <div class="pull-left logo-box">
+                                <div class="logo"><a href="/"><img src="{%static 'logo2.png' %}" alt="" title=""></a></div>
+                            </div>
+                            
+                            <div class="pull-right upper-right">
+                                
+                                <!--Header Lower-->
+                                <div class="header-lower">
+                                    
+                                    
+                                        <div class="nav-outer clearfix">
+                                            <!-- Main Menu -->
+                                            <nav class="main-menu navbar-expand-md">
+                                                <div class="navbar-header">
+                                                    <!-- Toggle Button -->    	
+                                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                                        <span class="icon-bar"></span>
+                                                        <span class="icon-bar"></span>
+                                                        <span class="icon-bar"></span>
+                                                    </button>
+                                                </div>
+                                                
+                                                <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+                                                    <ul class="navigation clearfix">
+                                                        <li><a href="/">Home</a></li>
+                                                        <li><a href="{% url 'about'%}">About Us</a></li>
+                                                        
+                                                        
+                                                        <li><a href="{% url 'contact' %}">Contact Us</a></li>
+                                                    </ul>
+                                                </div>
+                                            </nav>
+                                            
+                                            <!-- Main Menu End-->
+                                            <div class="outer-box clearfix">
+                                            
+                                                <!--Option Box-->
+                                                <div class="option-box">
+                                                    
+                                                    <!--Search Box-->
+                                                    <div class="search-box-outer">
+                                                        <div class="dropdown">
+                                                            <button class="search-box-btn dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flaticon-route"></span></button>
+                                                            <ul class="dropdown-menu pull-right search-panel" aria-labelledby="dropdownMenu3">
+                                                                <li class="panel-outer">
+                                                                    <div class="form-container">
+                                                                        <form method="post" action="track-result.php" method="post" name="form1" id="userForm" onSubmit="return validate()">
+                                                                            <div class="form-group">
+                                                                                <input type="search" name="Consignment" id="Consignment" value="" placeholder="Track Your Shipment" required="">
+                                                                                <button type="submit" class="search-btn"><i class="bi bi-search"></i></button>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                                <!--End Header Lower-->
+                                
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                <!--End Header Upper-->
+                </div>
+            </div>
+            
+            <!--Sticky Header-->
+            <div class="sticky-header">
+                <div class="auto-container clearfix">
+                    <!--Logo-->
+                    <div class="logo pull-left">
+                        <a href="/" class="img-responsive"><img src="images/logo-small-2.png" alt="" title=""></a>
+                    </div>
+                    
+                    <!--Right Col-->
+                    <div class="right-col pull-right">
+                        <!-- Main Menu -->
+                        <nav class="main-menu navbar-expand-md">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            
+                            <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
+                                <ul class="navigation clearfix">
+                                                        <li><a href="/">Home</a></li>
+                                                        <li><a href="{% url 'about' %}">About Us</a></li>
+                                                        
+                                                      
+                                                        
+                                                        <li><a href="{% url 'contact' %}">Contact Us</a></li>
+                                                    </ul>
+                            </div>
+                        </nav><!-- Main Menu End-->
+                    </div>
+                </div>
+            </div>
+            <!--End Sticky Header-->
+        
+        </header>
+        <!--End Main Header -->
+        
+        
+        <!--Page Title-->
+        <section class="page-title" style="background-image:url(https://www.expflingdelivery.com/images/background/12.jpg);">
+            <div class="auto-container">
+                <h2>Track & Trace</h2>
+                <div class="separater"></div>
+            </div>
+        </section>
+        
+        <!--Breadcrumb-->
+        <div class="breadcrumb-outer">
+            <div class="auto-container">
+                <ul class="bread-crumb text-center">
+                    <li><a href="index-1.html">Home</a> <span>/</span></li>
+                    <li>Track & Trace</li>
+                </ul>
+            </div>
+        </div>
+        <!--End Page Title-->
+        
+        <!--Sidebar Page Container-->
+        <div class="sidebar-page-container">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    
+                    <!--Content Side-->
+                    <div class="content-side col-lg-8 col-md-9 col-sm-9">
+                        <div class="track-section">
+                            <!-- Sec Title Two -->
+                            <div class="sec-title-two sec-title">
+                                <h2>Track & <span>Trace Shipment</span></h2>
+                                <div class="separater"></div>
+                            </div>
+                            
+                            <!-- Quote Form Box -->
+                            
+                            
+                            
+                            
+    
+    
+            
+    
+                                                      
+                     <tr>
+             <td colspan="2"><div align="left">
+               <table width="50%" border="0">
+                   <tr>
+                  <img src="https://www.expflingdelivery.com/images/arw.gif" width="40" height="14" border="0"> &nbsp; 
+                    {{ shipment.registered_at_location }}&nbsp;
+                    <img src="https://www.expflingdelivery.com/images/arw.gif" width="40" height="14">
+                    &nbsp;
+                    <img src="https://www.expflingdelivery.com/images/arw.gif" width="40" height="14">
+                     {{ shipment.destination }}
+                   </tr>
+                   </table>
+             </div></td>
+             </tr>
+             
+                                
+             <ul class="delivered-grid-box" >
+                <li>
+                     
+                       <div class="delivered-left"><span> <strong>,<br> </strong></div>
+                      <span class="d-bulte"><i class="current"></i></span>
+                        <div class="delivered-right"> <strong>{{ shipment.location.all.0.note }}</strong>
+                       <br>{{ shipment.location.all.0.address }}<br>
+                       <br>
+                       <span id="order-status" class="default">{{ shipment.location.all.0.status }}</span>
+                       </div>
+                      
+                       
+                       
+                     </li><br><br>
+                   </ul>
+             
+    
+    
+                              
+                  
+                            <!-- Tracking Info -->
+                            <div class="tracking-info-detail">
+                                {% for l in locations %}
+                                <ul class="delivered-grid-box" >
+                                    <li>
+                                         
+                                           <div class="delivered-left"><span> <strong>,<br> </strong></div>
+                                          <span class="d-bulte"><i class=""></i>
+                                        </span>
+                                            <div class="delivered-right"> <strong>{{ l.note }} </strong>
+                                           <br>{{ l.address }}<br>
+                                           <br>
+                                           <span id="order-status" class="default">{{ l.status }}</span>
+                                           </div>
+                                          
+                                           
+                                           
+                                         </li><br><br>
+                                       </ul>
+                                 
+                                 
+
+                                {%endfor%}
+                            
+                                                      
+                        
+                            
+                            
+                               
+                                
+                                              
+                            </div>
+                        
+                            
+                        </div>
+                    </div>
+                    
+                    <!--Sidebar Side-->
+                    <div class="sidebar-side col-lg-4 col-md-9 col-sm-9">
+                        <aside class="sidebar">
+                            
+                               <div>
+                            
+                        <center><img src="https://www.expflingdelivery.com/images/move.gif" width="190" height="65" border="0">	</center>
+                        <br>
+                     <font face="helvetica">
+         <font size="5" color="#2c2c2c">Waybill:</font> <font size="5" color="#C40202" face="arial,helvetica,sans-serif"><strong>{{ shipment.uuid }}
+         
+         <div method="post" action="{% url 'print_invoice' shipment.uuid %}" target="_blank" style="display:inline;" width="60px" height="40px">
+            {%csrf_token%}
+                    <a href="{% url 'print_invoice' shipment.uuid%}" target="_blank"> <button id="order-status" class="default" >PRINT INVOICE</button></a></div>	</strong>
+                                                </font><br />
+                                                </font>	
+                          <br>
+                        <table>	
+                            
+                            <tr>
+                            <th>Est. Delivery Date :</th>
+                            <td>
+                                {{ shipment.shipment_pick_up_date }}
+                            </td>
+    
+                          </tr>
+                          <tr>
+                            <th>Origin Service Area:</th>
+                            <td>{{ shipment.registered_at_location }}</td>
+                          </tr>
+                          <tr>
+                            <th>Destination Area:</th>
+                            <td>{{ shipment.destination }}</td>
+                          </tr>
+    
+                    </table>
+    
+                     
+                                <br><br>
+                                
+                                
+                            <center><strong>
+                                <font size="5" color="#C40202" face="arial,helvetica,sans-serif">Deliverer's  Details</font></strong></center>
+                                    <br>
+                                    <table>
+                          
+                          
+                          <tr>
+                            <th>Full Name:</th>
+                            <td>{{ shipment.deliverer.deliverer_name }}</td>
+                          </tr>
+                          
+                          <tr>
+                            <th>Image:</th>
+                            <td>
+                                <img src="{{ shipment.deliverer.deliverer_image.url }}" style="    height: 7em;
+                                width: 7em;
+                                border-radius: 50%;" />
+                            </td>
+                          </tr>
+                          
+                         
+                          
+                        </table>
+                          
+                          
+                          
+                          
+                          <br><br>
+                                
+                                
+                            <center><strong>
+                                <font size="5" color="#C40202" face="arial,helvetica,sans-serif">Receiver's  Details</font></strong></center>
+                                <br>
+                                    <table>
+                          <tr>
+                            <th>Name:</th>
+                            <td>{{ shipment.reciever.full_name }}</td>
+    
+                          </tr>
+                          
+                          <tr>
+                            <th>Email:</th>
+                            <td>{{ shipment.reciever.email }}</td>
+                          </tr>
+                          
+                          <tr>
+                            <th>Address:</th>
+                            <td>{{ shipment.reciever.location }}</td>
+                          </tr>
+                          
+                          <tr>
+                            <th>Mobile:</th>
+                            <td>+52 55 2507 5314</td>
+    
+                          </tr>
+                          
+                        </table>
+                          
+                          
+                          <br><br>
+                                
+                            <center><strong>
+                                <font size="5" color="#C40202" face="arial,helvetica,sans-serif">Shipment Details</font></strong></center>
+                                <br>
+                                    <table>
+                          <tr>
+                            <th>Bill of Lading:</th>
+                            <td>#{{ shipment.id }}</td>
+    
+                          </tr>
+                          
+                          <tr>
+                            <th>Type of Shipment:</th>
+                            <td>{{ shipment.shipment_type }}</td>
+                          </tr>
+                          
+                          
+                          <tr>
+                            <th>Quantity of Product:</th>
+                            <td>{{ shipment.quantity }}</td>
+    
+                          </tr>
+                          
+                          
+                          <tr>
+                            <th>Weight of Product:</th>
+                            <td>{{ shipment.weight }}&nbsp;kg</td>
+    
+                          </tr>
+                          <tr>
+                            <th>Mode of Transport:</th>
+                            <td>{{ shipment.mode_of_shipment }}</td>
+    
+                          </tr>
+                          <tr>
+                            <th>Total Charges:</th>
+                            <td>{{ shipment.payments.get_payment_total }}</td>
+    
+                          </tr>
+                        </table>
+                        
+                        </table>
+                            
+                                <br><br/>
+                                
+                                <br/><br/>
+                                
+                                
+                                
+                            
+                    
+                </div>
+                            
+                        </aside>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    <!--Main Footer-->
+        <footer class="main-footer style-two" style="background-image:url(https://www.expflingdelivery.com/images/background/7.png)">
+            <div class="auto-container">
+                <!--Widgets Section-->
+                <div class="widgets-section">
+                    <div class="row clearfix">
+                        
+                        <!--Column-->
+                        <div class="big-column col-lg-6 col-md-12 col-sm-12">
+                            <div class="row clearfix">
+                            
+                                <!--Footer Column-->
+                                <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                                    <div class="footer-widget logo-widget">
+                                        <h2><i class="bi bi-hand-thumbs-up colored_icons"></i>CP. Trademark</h2>
+                                        
+                                        <div class="row clearfix">
+                                            <img src="{%static 'logo2.png' %}" alt="" title="">
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                
+                                <!--Footer Column-->
+                                <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                                    <div class="footer-widget news-widget">
+                                        <h2><i class="bi bi-newspaper colored_icons"></i>Recent News</h2>
+                                        
+                                        <!--News Widget Block-->
+                                        <div class="news-widget-block">
+                                            <div class="widget-inner">
+                                                <div class="image">
+                                                    <img src="https://www.expflingdelivery.com/images/resource/news-image-1.jpg" alt="">
+                                                </div>
+                                                <h3><a href="##">{{ app_name }} Delivery, Partnership with C&L Global</a></h3>
+                                                <div class="post-date">November 26, 2020</div>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                       
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <!--Column-->
+                        <div class="big-column col-lg-6 col-md-12 col-sm-12">
+                            <div class="row clearfix">
+                            
+                                <!--Footer Column-->
+                                <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                                    <div class="footer-widget mail-widget">
+                                        <h2><i class="bi bi-envelope colored_icons"></i>Mailing List</h2>
+                                        <div class="text">Sign up for our mailing list.</div>
+                                        <!-- Email Form -->
+                                        <div class="email-form">
+                                            <form method="post" action="##">
+                                                <div class="form-group clearfix">
+                                                    <input type="email" name="email" value="" placeholder="Email address">
+                                                    <button type="submit" class="theme-btn submit-btn"><i class="bi bi-person-rolodex"></i></button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                
+                                <!--Footer Column-->
+                                <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                                    <div class="footer-widget about-widget">
+                                        <h2><span class="icon fa fa-user"></span>Contact Us</h2>
+                                        <div class="phone-number">Active 24/7</div>
+                                        <div class="about-email">{{ email }}<br>
+                                       </div>
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+                <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="copyright">&copy; 2021 {{ app_name }} Delivery. ALL RIGHTS RESERVED</div>
+            </div>
+            
+        </footer>
+        
+    </div>
+    <!--End pagewrapper-->
+    
+    <!--Scroll to top-->
+    <div class="scroll-to-top scroll-to-target" data-target="html"><i class="bi bi-arrow-up"></i></div>
+    
+    <script src="https://www.expflingdelivery.com/js/jquery.js"></script>
+    <script src="https://www.expflingdelivery.com/js/popper.min.js"></script>
+    <script src="https://www.expflingdelivery.com/js/bootstrap.min.js"></script>
+    <script src="https://www.expflingdelivery.com/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="https://www.expflingdelivery.com/js/jquery.fancybox.js"></script>
+    <script src="https://www.expflingdelivery.com/js/appear.js"></script>
+    <script src="https://www.expflingdelivery.com/js/owl.js"></script>
+    <script src="https://www.expflingdelivery.com/js/wow.js"></script>
+    <script src="https://www.expflingdelivery.com/js/jquery-ui.js"></script>
+    <script src="https://www.expflingdelivery.com/js/script.js"></script>
+    <!--Google Map APi Key-->
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyCcavdONRtu_0BfV63xiQX1LiJpX1ZJ2N0"></script>
+    <script src="https://www.expflingdelivery.com/js/map-script.js"></script>
+    <!--End Google Map APi-->
+    <script src="https://www.expflingdelivery.com/process/jquery.min.js"></script>
+        <script src="https://www.expflingdelivery.com/process/jquery.validate.js"></script>
+        
+    <script>
+        $.validator.setDefaults({
+            submit: function() {
+                alert("submitted!");
+            }
+        });
+    
+        $(document).ready(function() {
+            $("#userForm").validate({
+                rules: {
+                    name: "required",
+                    Consignment: {
+                        required: true,
+                        minlength: 13
+                    },
+                   
+                },
+                messages: {
+                    name: "Please enter your name",           
+                    Consignment: {
+                            required: "Please enter a valid tracking number...",
+                            minlength: "Tracking ID must consist of at least 13 characters"
+                    },           
+                }
+            });
+        });
+        
+        </script>
+        <script>
+        $(document).ready(function(){
+            $(".nav-tabs a").click(function(){
+                $(this).tab('show');
+            });
+        });
+        </script>
+    </body>
+    
+    </html>
+    

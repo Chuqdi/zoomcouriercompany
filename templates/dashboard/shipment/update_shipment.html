@@ -1,0 +1,88 @@
+{%extends 'dashboard/helpers/__base__.html' %}
+
+
+
+{%load static%}
+{% load crispy_forms_tags %}
+
+
+
+
+
+{%block content %}
+
+
+
+
+
+
+<!-- Form Start -->
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-sm-12 col-xl-12">
+            <div class="bg-light rounded h-100 p-4">
+                <h6 class="mb-4">Update Shipment|<b><span class="text-primary">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <input type="text" class="form-control" readonly value="{{shipment.uuid }}"
+                                        id="shipment_uuid_text_input" />
+                                </div>
+
+
+                                <div class="col-lg-6">
+                                    <button class="btn btn-secondary btn-sm" onclick="handleCopyShipmentUuid()">
+                                        <i class="bi bi-clipboard"></i> Copy
+                                    </button>
+                                </div>
+                            </div>
+                        </span></b> </h6>
+
+                <script>
+                    function handleCopyShipmentUuid() {
+                        let shipment_uuid_text_input = document.getElementById("shipment_uuid_text_input");
+                        let value = shipment_uuid_text_input.value;
+                        // Get the text field
+
+                        // Select the text field
+                        shipment_uuid_text_input.select();
+                        shipment_uuid_text_input.setSelectionRange(0, 99999); // For mobile devices
+
+                        // Copy the text inside the text field
+                        navigator.clipboard.writeText(value);
+
+                        // Alert the copied text
+                        alert("Copied!!!");
+                    }
+                </script>
+                <form method="post" enctype="multipart/form-data">
+                    {%csrf_token%}
+                    {{ form|crispy }}
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <input type="submit" value="Update " class="mt-2 btn btn-primary btn-lg" />
+                        </div>
+                    </div>
+                </form>
+
+                <div class="col-lg-6 col-sm-12">
+                    <form method="post" action="{% url 'deleteShipment' %}">
+                        {%csrf_token%}
+                        <input type="hidden" value="{{shipment.id}}" name="shipment_id" />
+                        <input type="submit" value="Delete " class="mt-2 btn btn-danger btn-lg" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Form End -->
+
+
+
+
+
+
+</div>
+<!-- Content End -->
+
+{%endblock%}

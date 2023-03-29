@@ -1,0 +1,72 @@
+{%extends 'dashboard/helpers/__base__.html' %}
+
+
+
+{%load static%}
+{% load crispy_forms_tags %}
+
+
+
+
+
+{%block content %}
+
+
+
+
+
+<!-- Form Start -->
+<div class="container-fluid pt-4 px-4">
+    <div class="bg-light text-center rounded p-4">
+        <div class="d-flex align-items-center justify-content-between mb-4">
+            <h6 class="mb-0">Shipment List</h6>
+        </div>
+        <div class="table-responsive">
+            <table class="table text-start align-middle table-bordered table-hover mb-0">
+                <thead>
+                    <tr class="text-dark">
+                        <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                        <th scope="col">ID</th>
+                        <th scope="col">UUID</th>
+                        <th scope="col">Weight</th>
+
+                        <th scope="col">Destination</th>
+                        <th scope="col">Mode Of Shipment</th>
+                        <th scope="col">Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {%for shipment in shipments %}
+                    <tr>
+                        <td><input class="form-check-input" type="checkbox"></td>
+                        <td>{{ shipment.id }}</td>
+                        <td>{{ shipment.uuid }}</td>
+                        <td>{{ shipment.weight }}</td>
+
+                        <td>{{ shipment.destination }}</td>
+
+                        <td>{{ shipment.mode_of_shipment }}</td>
+                        <td>{{ shipment.quantity }}</td>
+                        <td><a href="{% url 'updateShipment' shipment.id%}" class="btn btn-primary btn-sm">View</a></td>
+                    </tr>
+
+                    {%empty%}
+                    <p class="text-primary text-center">Not Shipment Yet</p>
+
+                    {%endfor%}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!-- Form End -->
+
+
+
+
+
+
+</div>
+<!-- Content End -->
+
+{%endblock%}

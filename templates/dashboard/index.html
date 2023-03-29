@@ -1,0 +1,113 @@
+{%extends 'dashboard/helpers/__base__.html' %}
+
+
+
+{%load static%}
+
+
+
+
+{%block content %}
+<!-- Sale & Revenue Start -->
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-line fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Total Number Of Shipments</p>
+                    <h6 class="mb-0">{{shipments|length}}</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-bar fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Total Number Of Deliverers</p>
+                    <h6 class="mb-0">{{ deliverers|length }}</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-area fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Today Number Of Recievers</p>
+                    <h6 class="mb-0">{{ recievers|length}}</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-pie fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Total Number Of Locations</p>
+                    <h6 class="mb-0">{{locations|length}}</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sale & Revenue End -->
+
+
+
+
+
+<!-- Recent Sales Start -->
+<div class="container-fluid pt-4 px-4">
+    <div class="bg-light text-center rounded p-4">
+        <div class="d-flex align-items-center justify-content-between mb-4">
+            <h6 class="mb-0">Recent Salse</h6>
+            <a href="">Show All</a>
+        </div>
+        <div class="table-responsive">
+            <table class="table text-start align-middle table-bordered table-hover mb-0">
+                <thead>
+                    <tr class="text-dark">
+                        <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                        <th scope="col">ID</th>
+                        <th scope="col">UUID</th>
+                        <th scope="col">Weight</th>
+
+                        <th scope="col">Destination</th>
+                        <th scope="col">Mode Of Shipment</th>
+                        <th scope="col">Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {%for shipment in shipments %}
+                    <tr>
+                        <td><input class="form-check-input" type="checkbox"></td>
+                        <td>{{ shipment.id }}</td>
+                        <td>{{ shipment.uuid }}</td>
+                        <td>{{ shipment.weight }}</td>
+
+                        <td>{{ shipment.destination }}</td>
+
+                        <td>{{ shipment.mode_of_shipment }}</td>
+                        <td>{{ shipment.quantity }}</td>
+                        <td><a href="{% url 'updateShipment' shipment.id%}" class="btn btn-primary btn-sm">View</a></td>
+                    </tr>
+
+                    {%empty%}
+                    <p class="text-primary text-center">Not Shipment Yet</p>
+
+                    {%endfor%}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!-- Recent Sales End -->
+
+
+
+
+
+
+</div>
+<!-- Content End -->
+
+{%endblock%}
