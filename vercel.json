@@ -1,14 +1,13 @@
 {
-        "builds": [
-          {
-            "src": "zoomcouriercompany/wsgi.py",
-            "use": "@vercel/python"
-          }
-        ],
-        "routes": [
-          {
-            "src": "/(.*)",
-            "dest": "zoomcouriercompany/wsgi.py"
-          }
-        ]
-    }
+    "builds": [{
+        "src": "zoomcouriercompany/wsgi.py",
+        "use": "@ardnt/vercel-python-wsgi",
+        "config": { "maxLambdaSize": "15mb" }
+    }],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "zoomcouriercompany/wsgi.py"
+        }
+    ]
+}

@@ -14,7 +14,7 @@ urlpatterns = [
     path("", index, name="index"),
     path("contact", contact, name="contact"),
     path("about", about, name="about"),
-    path("services", services, name="services"),
+    path("services/", services, name="services"),
     path("trackShipment/<tracking_uuid>", TrackShipment.as_view(), name="trackShipment"),
     path("print_invoice/<tracking_uuid>", PrintInvoice.as_view(), name="print_invoice"),
 
