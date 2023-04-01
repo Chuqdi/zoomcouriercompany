@@ -1,5 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import redirect, render
+from django.urls import reverse
 from django.views import View
 from base.forms import DelivererForm, LocationForm, PaymentForm, RecieverForm, SendEmailForm, ShipmentForm
 from django.views.generic import CreateView, DeleteView, DetailView, UpdateView, ListView

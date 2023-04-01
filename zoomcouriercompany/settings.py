@@ -29,7 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-CSRF_TRUSTED_ORIGINS = ['https://cargointransit.online',"http://127.0.0.1","https://www.cargointransit.online","cargointransit.online"]
+CSRF_TRUSTED_ORIGINS = ['https://cargointransit.online',"https://127.0.0.1","https://www.cargointransit.online"]
 
 
 # Application definition
@@ -167,11 +167,11 @@ MEDIA_URL="media/"
 
 
 EMAIL_BACKEND="django.core.mail.backends.smtp.EmailBackend"
-EMAIL_HOST="mail.privateemail.com"
+EMAIL_HOST="wgh19.wghservers.com"
 EMAIL_USE_TLS=True
-EMAIL_PORT=587
-EMAIL_HOST_USER="support@worldzoomcargo.com"
-EMAIL_HOST_PASSWORD="zoomit"
-DEFAULT_FROM_EMAIL ="WorldZoomCargo <support@worldzoomcargo.com>"
+EMAIL_PORT=26
+EMAIL_HOST_USER="support@cargointransit.online"
+EMAIL_HOST_PASSWORD="SUPERUSER123"
+DEFAULT_FROM_EMAIL ="Cargointransit <support@cargointransit.online>"
 
 
