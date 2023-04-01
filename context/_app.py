@@ -14,7 +14,7 @@ def app(request):
         "deliverers":deliverers,
         "recievers":recievers,
         "phone_number":"+1(863)417-2285",
-        "email":"support@zoomcourier.com",
+        "email":"support@cargointransit.online",
         "address":'''A108 Adam Street
 New York, NY 535022
 United States'''

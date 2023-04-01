@@ -28,7 +28,9 @@ SECRET_KEY = 'django-insecure-+*tp7*p8fvpq=wz9!pj$kbxt*1v)=it^lu(0xx#&=28!uj_^qz
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS  =["*"]
+
+CSRF_TRUSTED_ORIGINS = ['https://cargointransit.online',"http://127.0.0.1","https://www.cargointransit.online","cargointransit.online"]
+
 
 # Application definition
 
@@ -50,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    # 'django.middleware.csrf.CsrfViewMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
