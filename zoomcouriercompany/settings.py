@@ -164,3 +164,14 @@ CRISPY_TEMPLATE_PACK="bootstrap4"
 
 MEDIA_ROOT = BASE_DIR.joinpath("media")
 MEDIA_URL="media/"
+
+
+EMAIL_BACKEND="django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST="mail.privateemail.com"
+EMAIL_USE_TLS=True
+EMAIL_PORT=587
+EMAIL_HOST_USER="support@worldzoomcargo.com"
+EMAIL_HOST_PASSWORD="zoomit"
+DEFAULT_FROM_EMAIL ="WorldZoomCargo <support@worldzoomcargo.com>"
+
+
