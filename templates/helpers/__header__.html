@@ -1,3 +1,6 @@
+{% load static %}
+
+
 <!DOCTYPE html>
 <html lang="en-US" data-bt-theme="{{ app_name }} 1.1.9">
 
@@ -7,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <title>Main Demo &#8211; Transport, Courier and Moving WP Theme</title>
+  <title>{{ app_name }} | Logistics Company</title>
   <meta name='robots' content='max-image-preview:large' />
 
   <!-- Google Tag Manager for WordPress by gtm4wp.com -->
@@ -4924,9 +4927,9 @@
         <div class="logo">
           <span>
             <a href="https://wheelco.bold-themes.com/main-demo/"><img class="btMainLogo" data-hw="1.85"
-                src="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/08/logo-yellow-white.png"
+                src="{% static 'logo.png'%}"
                 alt="Main Demo"><img class="btAltLogo"
-                src="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/logo-black.png"
+                src="{% static 'logo.png' %}"
                 alt="Main Demo"></a> </span>
         </div><!-- /logo -->
       </div><!-- /btLogoArea -->
@@ -4940,10 +4943,10 @@
             </div>
             <div class="logo">
               <span>
-                <a href="https://wheelco.bold-themes.com/main-demo/"><img class="btMainLogo" data-hw="1.85"
-                    src="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/08/logo-yellow-white.png"
+                <a href="/"><img class="btMainLogo" data-hw="1.85"
+                    src="{% static 'logo.png' %}"
                     alt="Main Demo"><img class="btAltLogo"
-                    src="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/logo-black.png"
+                    src="{% static 'logo.png' %}"
                     alt="Main Demo"></a> </span>
             </div><!-- /logo -->
             <div class="topBarInLogoArea">
