@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
+import os
 from pathlib import Path
 from decouple  import config
 
@@ -131,15 +132,31 @@ USE_TZ = True
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-STATIC_URL="static/"
+AWS_ACCESS_KEY_ID = 'AKIAQAVA37IN7WH76HZ2'
+AWS_SECRET_ACCESS_KEY = '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'
+AWS_DEFAULT_ACL=None
+AWS_STORAGE_BUCKET_NAME = 'cargointransit'
+AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
+AWS_S3_OBJECT_PARAMETERS = {
+    'CacheControl': 'max-age=86400',
+}
+AWS_LOCATION = 'static'
+
+
+STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    BASE_DIR.joinpath("static")
+    os.path.join(BASE_DIR, 'static')
 ]
-STATIC_ROOT ="staticfiles"
+
+STATICFILES_STORAGE = os.path.join(BASE_DIR, 'static')
+STATIC_URL = 'https://%s/%s/' % (AWS_S3_CUSTOM_DOMAIN, AWS_LOCATION)
+STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 LOGIN_URL="login"
 LOGIN_REDIRECT_URL="dashboard"
 CRISPY_TEMPLATE_PACK="bootstrap4"
+
 
 
 
