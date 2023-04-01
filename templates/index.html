@@ -35,7 +35,7 @@
                           <div
                             class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_7 bt_bb_style_filled bt_bb_size_normal bt_bb_width_inline bt_bb_shape_round bt_bb_align_inherit"
                             data-bt-override-class="{}"><a
-                              href="https://wheelco.bold-themes.com/main-demo/services/" target="_self"
+                              href="{% url 'services' %}" target="_self"
                               class="bt_bb_link" title="OUR SERVICES"><span class="bt_bb_button_text">OUR
                                 SERVICES</span></a></div>
                           <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
@@ -63,13 +63,10 @@
                           </div>
                           <header class="bt_bb_headline bt_bb_dash_none bt_bb_size_medium bt_bb_align_inherit"
                             data-bt-override-class="{}">
-                            <h2 class="bt_bb_headline_tag"><span class="bt_bb_headline_content"><span>Get a quick
-                                  offer</span></span></h2>
+                            <h2 class="bt_bb_headline_tag"><span class="bt_bb_headline_content"><span>Enter your tracking ID here</span></span></h2>
                           </header>
                           <div class="bt_bb_text">
-                            <p>* for detailed quote use <a
-                                href="http://wheelco.bold-themes.com/main-demo/services/cost-calculator/">extended
-                                version</a></p>
+                            <p>Get your shipment details.</p>
                           </div>
                           <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
                         </div>
@@ -97,44 +94,22 @@
                             <div class="btQuoteBookingWrap">
                               <div class="btQuoteBookingForm btActive">
                                 <div class="btQuoteItem btCostCalculatorFirstItem" id="btQuoteItem641e05428aa5f">
-                                  <label>TRUCKLOAD</label>
-                                  <div class="btQuoteItemInput">
-                                    <div id="641e05428aa9bW810"
-                                      class="btQuoteSelect btContactField btDropDown btQuoteElement"
-                                      data-condition="" data-initial-value=""></div>
+                                  <div class="bt_bb_job_listings_location">
+                                    <label for="keywords">Tracking ID</label>
+                                    <input type="text" id="start_tracking_shipment_input" placeholder="Location"
+                                      name="search_location" />
                                   </div>
                                 </div>
-                                <div class="btQuoteItem btCostCalculatorSecondItem" id="btQuoteItem641e05428aabf">
-                                  <label>COMMODITY</label>
-                                  <div class="btQuoteItemInput">
-                                    <div id="641e05428aacfW730"
-                                      class="btQuoteSelect btContactField btDropDown btQuoteElement"
-                                      data-condition="" data-initial-value=""></div>
-                                  </div>
+                                
+                               
+                                <div class="btQuoteItem " id="btQuoteItem641e05428aaf8">
+                                  <div
+                            class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_7 bt_bb_style_filled bt_bb_size_normal bt_bb_width_inline bt_bb_shape_round bt_bb_align_inherit"
+                            data-bt-override-class="{}"><a
+                              href="#" id="start_tracking_shipment" target="_self"
+                              class="bt_bb_link" title="OUR SERVICES"><span class="bt_bb_button_text">TRACK NOW</span></a></div>
                                 </div>
-                                <div class="btQuoteItem btCostCalculatorThirdItem" id="btQuoteItem641e05428aae6">
-                                  <label>FREEZER</label>
-                                  <div class="btQuoteItemInput">
-                                    <div class="btQuoteSwitch btQuoteElement" data-off="0" data-on="100"
-                                      data-condition="" data-initial-value="">
-                                      <div class="btQuoteSwitchInner"></div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="btQuoteItem " id="btQuoteItem641e05428aaf8"><label>DISTANCE
-                                    (MILES)</label>
-                                  <div class="btQuoteItemInput">
-                                    <div class="btQuoteSlider btQuoteElement" data-value="1600"
-                                      data-initial-value="1600" data-min="0" data-max="10000" data-step="100"
-                                      data-price="2" data-offset="0" data-condition=""></div><span
-                                      class="btQuoteSliderValue">1600</span>
-                                  </div>
-                                </div>
-                                <div class="btTotalNextWrapper">
-                                  <div class="btQuoteTotal"><span class="btQuoteTotalText">Total</span><span
-                                      class="btQuoteTotalCurrency">$&nbsp;</span><span
-                                      class="btQuoteTotalCalc"></span></div>
-                                </div>
+                                
                               </div>
                             </div>
                           </div>
@@ -276,12 +251,6 @@
                       data-width="12" data-bt-override-class="{}">
                       <div class="bt_bb_column_content">
                         <div class="bt_bb_column_content_inner">
-                          <div
-                            class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_8 bt_bb_style_outline bt_bb_size_medium bt_bb_width_inline bt_bb_shape_round bt_bb_align_inherit"
-                            data-bt-override-class="{}"><a
-                              href="https://wheelco.bold-themes.com/main-demo/services/cost-calculator/"
-                              target="_self" class="bt_bb_link" title="GET DETAILED QUOTE"><span
-                                class="bt_bb_button_text">GET DETAILED QUOTE</span></a></div>
                           <div
                             class="bt_bb_separator bt_bb_top_spacing_large bt_bb_bottom_spacing_extra_large bt_bb_border_style_none">
                           </div>
@@ -1793,76 +1762,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="bt_bb_row_wrapper">
-                  <div class="bt_bb_row">
-                    <div
-                      class="bt_bb_column col-xl-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_padding_normal bt_bb_animation_fade_in animate"
-                      data-width="12" data-bt-override-class="{}">
-                      <div class="bt_bb_column_content">
-                        <div class="bt_bb_column_content_inner">
-                          <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
-                          <header
-                            class="bt_bb_headline bt_bb_dash_bottom bt_bb_subheadline bt_bb_size_normal bt_bb_align_inherit"
-                            data-bt-override-class="{}">
-                            <h2 class="bt_bb_headline_tag"><span class="bt_bb_headline_content"><span>JOB
-                                  LISTING</span></span></h2>
-                            <div class="bt_bb_headline_subheadline">Search job and free positions in our company
-                            </div>
-                          </header>
-                          <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="bt_bb_row_wrapper">
-                  <div class="bt_bb_row">
-                    <div
-                      class="bt_bb_column col-xl-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_padding_double bt_bb_animation_fade_in animate bt_bb_highlighted_no"
-                      data-width="12" data-bt-override-class="{}">
-                      <div class="bt_bb_column_content" style="background-color:rgba(230, 230, 230, 1);">
-                        <div class="bt_bb_column_content_inner">
-                          <div class="bt_bb_separator bt_bb_top_spacing_small bt_bb_border_style_none"></div>
-                          <div class="bt_bb_job_custom_search">
-
-                            <div class="bt_bb_job_listings">
-                              <form method="GET" action="https://wheelco.bold-themes.com/main-demo/about-us/jobs/">
-                                <div class="bt_bb_job_listings_inner">
-                                  <div class="bt_bb_job_listings_keywords">
-                                    <label for="keywords">Keywords</label>
-                                    <input type="text" id="search_keywords" placeholder="Keywords"
-                                      name="search_keywords" />
-                                  </div>
-                                  <div class="bt_bb_job_listings_location">
-                                    <label for="keywords">Location</label>
-                                    <input type="text" id="search_location" placeholder="Location"
-                                      name="search_location" />
-                                  </div>
-                                </div>
-                                <div class="bt_bb_job_listings_category">
-                                  <label for="search_category">Job Category</label>
-                                  <select class="bt_bb_search_category" name="search_category">
-                                    <option value="">Any Categories</option>
-                                    <option value="43">Customer Service</option>
-                                    <option value="44">Driver</option>
-                                    <option value="45">Forklift Driver</option>
-                                    <option value="48">Handyman</option>
-                                    <option value="50">Office Manager</option>
-                                    <option value="51">Signalling technician</option>
-                                  </select>
-                                </div>
-                                <div class="bt_bb_job_listings_submit">
-                                  <input type="submit" value="Search" />
-                                </div>
-                              </form>
-                            </div>
-
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                
+              
               </div>
             </div>
           </div>
