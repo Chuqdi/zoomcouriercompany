@@ -1,147 +1,426 @@
-{% load static %}
 
-<footer class="footer" style="background-color: #212223">
-  <!-- GetButton.io widget -->
-<script type="text/javascript">
-  (function () {
-      var options = {
-          whatsapp: "{{ phone_number }}", // WhatsApp number
-          call_to_action: "Message us", // Call to action
-          button_color: "#FF6550", // Color of button
-          position: "right", // Position may be 'right' or 'left'
-      };
-      var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
-      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-  })();
-</script>
-<!-- /GetButton.io widget -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="widget_text widget footer-widget">
-            <div class="textwidget custom-html-widget">
-              <figure class="logo"> <img src="{% static 'logo.png'%}" alt="Image"> </figure>
-              <p>{{ phone_number }}<br>
-                <a href="#">{{ email }}</a>
-              </p>
-              <p>{{ address }} </p>
+<div class="btSiteFooter">
+
+  <footer class="btDarkSkin">
+
+    <section class="btSiteFooterWidgets gutter">
+      <div class="port">
+        <div class="bt_bb_row" id="boldSiteFooterWidgetsRow">
+          <div class="btBox widget_bt_bb_text_image">
+            <h4><span>About us</span></h4>
+            <div class="bt_bb_slider bt_bb_height_auto">
+              <div class="slick-slider"
+                data-slick='{ "lazyLoad": "progressive", "cssEase": "ease-out", "speed": "300", "adaptiveHeight": true, "prevArrow": "&lt;button type=\"button\" class=\"slick-prev\"&gt;", "nextArrow": "&lt;button type=\"button\" class=\"slick-next\"&gt;", "autoplay": true, "autoplaySpeed": 3000}'>
+                <div class="bt_bb_slider_item"
+                  data-src-full="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/09/about-us-footer.png">
+                  <img
+                    src="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/09/about-us-footer.png"
+                    alt="about-us-footer" title="about-us-footer"></div>
+              </div>
+            </div>
+            <div class="widget_sp_image-description">
+              <p> Since establishment in 1994, our company has been recognized as one of the most successful
+                independent freight forwarding, moving, trucking, removal and relocation and project logistics
+                companies in the region.</p>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="widget_text widget footer-widget">
-            <h6 class="widget-title">Quick Links</h6>
-            <div class="textwidget custom-html-widget">
-              <ul class="footer-menu">
-                <li><a href="#">Air Freight</a></li>
-                <li><a href="#">Sea Freight</a></li>
-                <li><a href="#">Ground Cargo</a></li>
-                <li><a href="#">Packaging Options</a></li>
-                <li><a href="#">Track Your Shipment</a></li>
+          <div class="btBox widget_bt_bb_recent_posts">
+            <h4><span>Recent Posts</span></h4>
+            <div class="btImageTextWidgetWraper">
+              <ul>
+                <li>
+                  <div class="btImageTextWidget">
+                    <div class="btImageTextWidgetImage"><a
+                        href="https://wheelco.bold-themes.com/main-demo/2017/07/28/de-celebrates-40-years-of-career/"><img
+                          width="160" height="160"
+                          src="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/07/post_12-160x160.jpg"
+                          class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async"
+                          srcset="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/07/post_12-160x160.jpg 160w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/07/post_12-180x180.jpg 180w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/07/post_12-300x300.jpg 300w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/07/post_12-600x600.jpg 600w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/07/post_12-640x640.jpg 640w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/07/post_12-320x320.jpg 320w"
+                          sizes="(max-width: 160px) 100vw, 160px" /></a></div>
+                    <div class="btImageTextWidgetText">
+                      <header class="bt_bb_headline bt_bb_superheadline bt_bb_size_small"
+                        data-bt-override-class="{}">
+                        <h4 class="bt_bb_headline_tag"><span class="bt_bb_headline_superheadline">July 28,
+                            2017</span><span class="bt_bb_headline_content"><span><a
+                                href="https://wheelco.bold-themes.com/main-demo/2017/07/28/de-celebrates-40-years-of-career/"
+                                target="_self" title="DE celebrates 40 years of career">DE celebrates 40 years of
+                                career</a></span></span></h4>
+                      </header>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="btImageTextWidget">
+                    <div class="btImageTextWidgetImage"><a
+                        href="https://wheelco.bold-themes.com/main-demo/2017/03/22/liberalisation-in-2017-year-of-cargo/"><img
+                          width="160" height="160"
+                          src="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/post_10-160x160.jpg"
+                          class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async"
+                          loading="lazy"
+                          srcset="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/post_10-160x160.jpg 160w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/post_10-180x180.jpg 180w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/post_10-300x300.jpg 300w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/post_10-600x600.jpg 600w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/post_10-640x640.jpg 640w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/post_10-320x320.jpg 320w"
+                          sizes="(max-width: 160px) 100vw, 160px" /></a></div>
+                    <div class="btImageTextWidgetText">
+                      <header class="bt_bb_headline bt_bb_superheadline bt_bb_size_small"
+                        data-bt-override-class="{}">
+                        <h4 class="bt_bb_headline_tag"><span class="bt_bb_headline_superheadline">March 22,
+                            2017</span><span class="bt_bb_headline_content"><span><a
+                                href="https://wheelco.bold-themes.com/main-demo/2017/03/22/liberalisation-in-2017-year-of-cargo/"
+                                target="_self" title="Liberalisation in 2017 year of cargo">Liberalisation in 2017
+                                year of cargo</a></span></span></h4>
+                      </header>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="btImageTextWidget">
+                    <div class="btImageTextWidgetImage"><a
+                        href="https://wheelco.bold-themes.com/main-demo/2017/03/15/amsterdam-harbour-support-contract/"><img
+                          width="160" height="160"
+                          src="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/post_09-160x160.jpg"
+                          class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async"
+                          loading="lazy"
+                          srcset="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/post_09-160x160.jpg 160w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/post_09-180x180.jpg 180w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/post_09-300x300.jpg 300w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/post_09-600x600.jpg 600w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/post_09-640x640.jpg 640w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/post_09-320x320.jpg 320w"
+                          sizes="(max-width: 160px) 100vw, 160px" /></a></div>
+                    <div class="btImageTextWidgetText">
+                      <header class="bt_bb_headline bt_bb_superheadline bt_bb_size_small"
+                        data-bt-override-class="{}">
+                        <h4 class="bt_bb_headline_tag"><span class="bt_bb_headline_superheadline">March 15,
+                            2017</span><span class="bt_bb_headline_content"><span><a
+                                href="https://wheelco.bold-themes.com/main-demo/2017/03/15/amsterdam-harbour-support-contract/"
+                                target="_self" title="Amsterdam harbour support contract">Amsterdam harbour support
+                                contract</a></span></span></h4>
+                      </header>
+                    </div>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="widget footer-widget">
-            <h6 class="widget-title">Subscribe Newsletter</h6>
-            <script>(function () {
-                window.mc4wp = window.mc4wp || {
-                  listeners: [],
-                  forms: {
-                    on: function (evt, cb) {
-                      window.mc4wp.listeners.push(
-                        {
-                          event: evt,
-                          callback: cb
-                        }
-                      );
-                    }
-                  }
-                }
-              })();
-            </script><!-- Mailchimp for WordPress v4.9.2 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
-            <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-146" method="post" data-id="146"
-              data-name="Newsletter">
-              <div class="mc4wp-form-fields"> <input type="email" placeholder="enter your email address....">
-                <input type="submit" value="Subscribe">
-              </div><label style="display: none !important;">Leave this field empty if you're human: <input type="text"
-                  name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden"
-                name="_mc4wp_timestamp" value="1680026919" /><input type="hidden" name="_mc4wp_form_id"
-                value="146" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" />
-              <div class="mc4wp-response"></div>
-            </form><!-- / Mailchimp for WordPress Plugin -->
+          <div class="btBox widget_bt_bb_twitter_widget">
+            <h4><span>Twitter</span></h4>
+            <div class="recentTweets"></div>
+          </div>
+          <div class="btBox widget_media_gallery">
+            <h4><span>Instagram</span></h4>
+            <div id='gallery-1' class='gallery galleryid-1067 gallery-columns-3 gallery-size-thumbnail'>
+              <figure class='gallery-item'>
+                <div class='gallery-icon landscape'>
+                  <img width="160" height="160"
+                    src="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_06-160x160.jpg"
+                    class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"
+                    srcset="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_06-160x160.jpg 160w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_06-180x180.jpg 180w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_06-300x300.jpg 300w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_06-600x600.jpg 600w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_06-640x640.jpg 640w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_06-320x320.jpg 320w"
+                    sizes="(max-width: 160px) 100vw, 160px" />
+                </div>
+              </figure>
+              <figure class='gallery-item'>
+                <div class='gallery-icon landscape'>
+                  <img width="160" height="160"
+                    src="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_07-160x160.jpg"
+                    class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"
+                    srcset="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_07-160x160.jpg 160w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_07-180x180.jpg 180w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_07-300x300.jpg 300w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_07-600x600.jpg 600w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_07-640x640.jpg 640w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_07-320x320.jpg 320w"
+                    sizes="(max-width: 160px) 100vw, 160px" />
+                </div>
+              </figure>
+              <figure class='gallery-item'>
+                <div class='gallery-icon landscape'>
+                  <img width="160" height="160"
+                    src="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_05-160x160.jpg"
+                    class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"
+                    srcset="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_05-160x160.jpg 160w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_05-180x180.jpg 180w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_05-300x300.jpg 300w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_05-600x600.jpg 600w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_05-640x640.jpg 640w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_05-320x320.jpg 320w"
+                    sizes="(max-width: 160px) 100vw, 160px" />
+                </div>
+              </figure>
+              <figure class='gallery-item'>
+                <div class='gallery-icon landscape'>
+                  <img width="160" height="160"
+                    src="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_04-160x160.jpg"
+                    class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"
+                    srcset="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_04-160x160.jpg 160w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_04-180x180.jpg 180w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_04-300x300.jpg 300w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_04-600x600.jpg 600w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_04-640x640.jpg 640w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_04-320x320.jpg 320w"
+                    sizes="(max-width: 160px) 100vw, 160px" />
+                </div>
+              </figure>
+              <figure class='gallery-item'>
+                <div class='gallery-icon landscape'>
+                  <img width="160" height="160"
+                    src="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_03-160x160.jpg"
+                    class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"
+                    srcset="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_03-160x160.jpg 160w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_03-180x180.jpg 180w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_03-300x300.jpg 300w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_03-600x600.jpg 600w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_03-640x640.jpg 640w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_03-320x320.jpg 320w"
+                    sizes="(max-width: 160px) 100vw, 160px" />
+                </div>
+              </figure>
+              <figure class='gallery-item'>
+                <div class='gallery-icon landscape'>
+                  <img width="160" height="160"
+                    src="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_02-160x160.jpg"
+                    class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"
+                    srcset="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_02-160x160.jpg 160w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_02-180x180.jpg 180w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_02-300x300.jpg 300w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_02-600x600.jpg 600w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_02-640x640.jpg 640w, https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/history_inner_02-320x320.jpg 320w"
+                    sizes="(max-width: 160px) 100vw, 160px" />
+                </div>
+              </figure>
+            </div>
           </div>
         </div>
-        <div class="col-12">
-          <div class="footer-bottom"> <span>© 2022 {{ app_name }} | Logistic Shipping Company</span> <span></span> </div>
-          <!-- end footer-bottom -->
-        </div>
-        <!-- end col-12 -->
       </div>
-      <!-- end row -->
-    </div>
-    <!-- end container -->
+    </section>
+    <section class="gutter btSiteFooterCopyMenu">
+      <div class="port">
+        <div class="">
+          <div class="btFooterCopy">
+            <div class="bt_bb_column_content">
+              <p class="copyLine">BoldThemes, 2017 © All Rights Reserved</p>
+            </div>
+          </div><!-- /copy -->
+          <div class="btFooterMenu">
+            <div class="bt_bb_column_content">
+              <ul id="menu-footer-menu" class="menu">
+                <li id="menu-item-3321"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3321"><a
+                    href="https://wheelco.bold-themes.com/main-demo/about-us/">About Us</a></li>
+                <li id="menu-item-3323"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3323"><a
+                    href="https://wheelco.bold-themes.com/main-demo/about-us/location/">Location</a></li>
+                <li id="menu-item-3322"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3322"><a
+                    href="https://wheelco.bold-themes.com/main-demo/about-us/contact/">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div><!-- /boldRow -->
+      </div><!-- /port -->
+    </section>
   </footer>
-  <script>(function () {
-      function maybePrefixUrlField() {
-        const value = this.value.trim()
-        if (value !== '' && value.indexOf('http') !== 0) {
-          this.value = 'http://' + value
+</div><!-- /btSiteFooter -->
+
+</div><!-- /pageWrap -->
+
+
+<!-- BEGIN recaptcha, injected by plugin wp-recaptcha-integration  -->
+<script type="text/javascript">
+var recaptcha_widgets = {};
+function wp_recaptchaLoadCallback() {
+  try {
+    grecaptcha;
+  } catch (err) {
+    return;
+  }
+  var e = document.querySelectorAll ? document.querySelectorAll('.g-recaptcha:not(.wpcf7-form-control)') : document.getElementsByClassName('g-recaptcha'),
+    form_submits;
+
+  for (var i = 0; i < e.length; i++) {
+    (function (el) {
+      var wid;
+      // check if captcha element is unrendered
+      if (!el.childNodes.length) {
+        wid = grecaptcha.render(el, {
+          'sitekey': '6LfmEKAaAAAAAJGwYMNSdux-yATrkwZcw6GT6N41',
+          'theme': el.getAttribute('data-theme') || 'light'
+        });
+        el.setAttribute('data-widget-id', wid);
+      } else {
+        wid = el.getAttribute('data-widget-id');
+        grecaptcha.reset(wid);
+      }
+    })(e[i]);
+  }
+}
+
+// if jquery present re-render jquery/ajax loaded captcha elements
+if (typeof jQuery !== 'undefined')
+  jQuery(document).ajaxComplete(function (evt, xhr, set) {
+    if (xhr.responseText && xhr.responseText.indexOf('6LfmEKAaAAAAAJGwYMNSdux-yATrkwZcw6GT6N41') !== -1)
+      wp_recaptchaLoadCallback();
+  });
+
+</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=wp_recaptchaLoadCallback&#038;render=explicit" async
+defer></script>
+<!-- END recaptcha -->
+<script type="text/javascript">
+(function () {
+  var c = document.body.className;
+  c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+  document.body.className = c;
+})();
+</script>
+<script type='text/javascript'
+src='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.6.4'
+id='swv-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = { "api": { "root": "https:\/\/wheelco.bold-themes.com\/main-demo\/wp-json\/", "namespace": "contact-form-7\/v1" }, "cached": "1" };
+/* ]]> */
+</script>
+<script type='text/javascript'
+src='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.4'
+id='contact-form-7-js'></script>
+<script type='text/javascript'
+src='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.6.5.1'
+id='jquery-blockui-js'></script>
+<script type='text/javascript' id='wc-add-to-cart-js-extra'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = { "ajax_url": "\/main-demo\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/main-demo\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View cart", "cart_url": "https:\/\/wheelco.bold-themes.com\/main-demo\/shop\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
+/* ]]> */
+</script>
+<script type='text/javascript'
+src='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=6.5.1'
+id='wc-add-to-cart-js'></script>
+<script type='text/javascript'
+src='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.6.5.1'
+id='js-cookie-js'></script>
+<script type='text/javascript' id='woocommerce-js-extra'>
+/* <![CDATA[ */
+var woocommerce_params = { "ajax_url": "\/main-demo\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/main-demo\/?wc-ajax=%%endpoint%%" };
+/* ]]> */
+</script>
+<script type='text/javascript'
+src='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=6.5.1'
+id='woocommerce-js'></script>
+<script type='text/javascript' id='wc-cart-fragments-js-extra'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = { "ajax_url": "\/main-demo\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/main-demo\/?wc-ajax=%%endpoint%%", "cart_hash_key": "wc_cart_hash_ba9b67b1d7fd8c1f9620f8645ed24007", "fragment_name": "wc_fragments_ba9b67b1d7fd8c1f9620f8645ed24007", "request_timeout": "5000" };
+/* ]]> */
+</script>
+<script type='text/javascript'
+src='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=6.5.1'
+id='wc-cart-fragments-js'></script>
+<script type='text/javascript'
+src='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.16.1'
+id='gtm4wp-form-move-tracker-js'></script>
+<script type='text/javascript'
+src='https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/framework/js/fancySelect.js?ver=6.1.1'
+id='fancySelect-js'></script>
+<script type='text/javascript' id='wheelco-header-misc-js-before'>
+window.BoldThemesURI = "https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco"; window.BoldThemesAJAXURL = "https://wheelco.bold-themes.com/main-demo/wp-admin/admin-ajax.php"; window.boldthemes_text = []; window.boldthemes_text.previous = 'previous'; window.boldthemes_text.next = 'next';
+</script>
+<script type='text/javascript'
+src='https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/framework/js/header.misc.js?ver=6.1.1'
+id='wheelco-header-misc-js'></script>
+<script type='text/javascript'
+src='https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/framework/js/misc.js?ver=6.1.1'
+id='wheelco-misc-js'></script>
+<script type='text/javascript'
+src='https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/framework/js/framework_misc.js?ver=6.1.1'
+id='boldthemes-framework-misc-js'></script>
+<script type='text/javascript' id='boldthemes-framework-misc-js-after'>
+var boldthemes_dropdown = document.querySelector(".widget_categories #cat");
+function boldthemes_onCatChange() {
+  if (boldthemes_dropdown.options[boldthemes_dropdown.selectedIndex].value > 0) {
+    location.href = "https://wheelco.bold-themes.com/main-demo/?cat=" + boldthemes_dropdown.options[boldthemes_dropdown.selectedIndex].value;
+  }
+}
+if (boldthemes_dropdown !== null) {
+  boldthemes_dropdown.onchange = boldthemes_onCatChange;
+}
+
+</script>
+<script type='text/javascript'
+src='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/bold-page-builder/content_elements/bt_bb_section/bt_bb_elements.js?ver=4.2.5'
+id='bt_bb_elements-js'></script>
+<script type='text/javascript'
+src='https://wheelco.bold-themes.com/main-demo/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2'
+id='jquery-ui-core-js'></script>
+<script type='text/javascript'
+src='https://wheelco.bold-themes.com/main-demo/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.2'
+id='jquery-ui-datepicker-js'></script>
+<script type='text/javascript' id='jquery-ui-datepicker-js-after'>
+jQuery(function (jQuery) { jQuery.datepicker.setDefaults({ "closeText": "Close", "currentText": "Today", "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "nextText": "Next", "prevText": "Previous", "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"], "dateFormat": "MM d, yy", "firstDay": 1, "isRTL": false }); });
+</script>
+<script type='text/javascript'
+src='https://wheelco.bold-themes.com/main-demo/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2'
+id='jquery-ui-mouse-js'></script>
+<script type='text/javascript'
+src='https://wheelco.bold-themes.com/main-demo/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2'
+id='jquery-ui-slider-js'></script>
+<script type='text/javascript'
+src='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/bt_cost_calculator/jquery.ui.touch-punch.min.js?ver=6.1.1'
+id='bt_touch-punch_js-js'></script>
+<script>
+
+var bt_cc_accent_c641e05428a993_init_finished = false;
+
+document.addEventListener('readystatechange', function () {
+  if (!bt_cc_accent_c641e05428a993_init_finished && typeof (jQuery) !== 'undefined' && (document.readyState === 'interactive' || document.readyState === 'complete')) {
+    var css_class = 'c641e05428a993';
+    var c = jQuery('.' + css_class);
+    setTimeout(function () { c.css('opacity', '1'); }, 200);
+    var accent_color = '';
+
+    if (accent_color != '') {
+      jQuery('head').append('<style>.btQuoteBooking.' + css_class + ' .btContactNext { color: ' + accent_color + ' !important; border: ' + accent_color + ' 2px solid !important; }.btQuoteBooking.' + css_class + '  input[type="text"]:hover, .btQuoteBooking.' + css_class + '  input[type="email"]:hover, .btQuoteBooking.' + css_class + '  input[type="password"]:hover, .btQuoteBooking.' + css_class + '  input[type="url"]:hover, .btQuoteBooking.' + css_class + '  input[type="tel"]:hover, .btQuoteBooking.' + css_class + '  input[type="number"]:hover, .btQuoteBooking.' + css_class + '  input[type="date"]:hover, .btQuoteBooking.' + css_class + '  textarea:hover, .btQuoteBooking.' + css_class + '  .fancy-select .trigger:hover {	box-shadow: 0 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + ' .dd.ddcommon.borderRadius:hover .ddTitleText {	box-shadow: 0 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + '  input[type="text"]:focus, .btQuoteBooking.' + css_class + '  input[type="email"]:focus, .btQuoteBooking.' + css_class + '  input[type="url"]:focus, .btQuoteBooking.' + css_class + '  input[type="tel"]:focus, .btQuoteBooking.' + css_class + '  input[type="number"]:focus, .btQuoteBooking.' + css_class + '  input[type="date"]:focus, .btQuoteBooking.' + css_class + '  textarea:focus, .btQuoteBooking.' + css_class + '  .fancy-select .trigger.open {	box-shadow: 5px 0 0 ' + accent_color + ' inset, 0 2px 10px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + ' .dd.ddcommon.borderRadiusTp .ddTitleText, .btQuoteBooking.' + css_class + ' .dd.ddcommon.borderRadiusBtm .ddTitleText {	box-shadow: 5px 0 0 ' + accent_color + ' inset, 0 2px 10px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + '  .ui-slider .ui-slider-handle {	background: ' + accent_color + ' !important;}.btQuoteBooking.' + css_class + ' .btQuoteBookingForm .btQuoteTotal {	background: ' + accent_color + ' !important;}.btQuoteBooking.' + css_class + '  .btContactFieldMandatory input:hover, .btQuoteBooking.' + css_class + '  .btContactFieldMandatory textarea:hover {	box-shadow: 0 0 0 1px #AAA inset, 0 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + ' .btContactFieldMandatory .dd.ddcommon.borderRadius:hover .ddTitleText {	box-shadow: 0 0 0 1px #AAA inset, 0 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + '  .btContactFieldMandatory input:focus, .btQuoteBooking.' + css_class + '  .btContactFieldMandatory textarea:focus {	box-shadow: 0 0 0 1px #AAA inset, 5px 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + ' .btContactFieldMandatory .dd.ddcommon.borderRadiusTp .ddTitleText {	box-shadow: 0 0 0 1px #AAA inset, 5px 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + '  .btContactFieldMandatory.btContactFieldError input, .btQuoteBooking.' + css_class + '  .btContactFieldMandatory.btContactFieldError textarea {	border: 1px solid ' + accent_color + ' !important;	box-shadow: 0 0 0 1px ' + accent_color + ' inset !important;}.btQuoteBooking.' + css_class + ' .btContactFieldMandatory.btContactFieldError .dd.ddcommon.borderRadius .ddTitleText {	border: 1px solid ' + accent_color + ' !important;	box-shadow: 0 0 0 1px ' + accent_color + ' inset !important;}.btQuoteBooking.' + css_class + '  .btContactFieldMandatory.btContactFieldError input:hover, .btQuoteBooking.' + css_class + '  .btContactFieldMandatory.btContactFieldError textarea:hover {	box-shadow: 0 0 0 1px ' + accent_color + ' inset, 0 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + ' .btContactFieldMandatory.btContactFieldError .dd.ddcommon.borderRadius:hover .ddTitleText {	box-shadow: 0 0 0 1px ' + accent_color + ' inset, 0 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + '  .btContactFieldMandatory.btContactFieldError input:focus, .btQuoteBooking.' + css_class + '  .btContactFieldMandatory.btContactFieldError textarea:focus {	box-shadow: 0 0 0 1px ' + accent_color + ' inset, 5px 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + ' .btContactFieldMandatory.btContactFieldError .dd.ddcommon.borderRadiusTp .ddTitleText {	box-shadow: 0 0 0 1px ' + accent_color + ' inset, 5px 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + ' .btSubmitMessage {	color: ' + accent_color + ' !important;}.btDatePicker .ui-datepicker-header {	background-color: ' + accent_color + ' !important;}.btQuoteBooking.' + css_class + ' .btContactSubmit {	background-color: ' + accent_color + ' !important;}.btQuoteBooking.' + css_class + ' .btQuoteSwitch.on .btQuoteSwitchInner{background: ' + accent_color + ' !important;}</style>');
+    }
+    bt_cc_accent_c641e05428a993_init_finished = true;
+  }
+}, false);
+
+</script>
+
+<script>
+
+var bt_cc_641e05428aa9bW810_init_finished = false;
+
+document.addEventListener('readystatechange', function () {
+  if (!bt_cc_641e05428aa9bW810_init_finished && typeof (jQuery) !== 'undefined' && (document.readyState === 'complete')) {
+    var img_height = '';
+    if (img_height != '') {
+      jQuery('head').append('<style>.ddImage img {height:' + img_height + 'px !important;}</style>');
+    }
+
+    var ddData = [{ text: 'Select...', value: '' }, { text: 'Straight Truck', value: '100', description: 'Single frame', image: '' }, { text: 'Dry Van', value: '200', description: 'Box on wheels', image: '' }, { text: 'Step Deck', value: '300', description: 'Platform with no sides', image: '' }];
+
+    var oDropdown = jQuery('#641e05428aa9bW810').msDropDown({
+      byJson: { data: ddData },
+      on: {
+        change: function (data, ui) {
+          var val = data.value;
+          ui.data('value', val);
+          bt_cc_eval_conditions(val, jQuery(ui).closest('.btQuoteSelect').data('condition'));
+          bt_quote_total(jQuery(ui).closest('.btQuoteBooking'));
+          bt_paypal_items(jQuery(ui).closest('.btQuoteBooking'));
         }
       }
+    }).data('dd');
+    if (oDropdown) {
+      bt_cc_init_dropdown(oDropdown, '#641e05428aa9bW810', 0);
+    }
+    bt_cc_641e05428aa9bW810_init_finished = true;
+  }
+}, false);
 
-      const urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]')
-      for (let j = 0; j < urlFields.length; j++) {
-        urlFields[j].addEventListener('blur', maybePrefixUrlField)
+</script>
+<script>
+
+var bt_cc_641e05428aacfW730_init_finished = false;
+
+document.addEventListener('readystatechange', function () {
+  if (!bt_cc_641e05428aacfW730_init_finished && typeof (jQuery) !== 'undefined' && (document.readyState === 'complete')) {
+    var img_height = '';
+    if (img_height != '') {
+      jQuery('head').append('<style>.ddImage img {height:' + img_height + 'px !important;}</style>');
+    }
+
+    var ddData = [{ text: 'Select...', value: '' }, { text: 'Soft commodities', value: '100', description: 'Coffee, cocoa or wheat', image: '' }, { text: 'Petroleum', value: '200', description: 'Gas, Gasoline or Motor oil', image: '' }, { text: 'Agricultural products', value: '300', description: 'Iron ore, sugar and rice', image: '' }];
+
+    var oDropdown = jQuery('#641e05428aacfW730').msDropDown({
+      byJson: { data: ddData },
+      on: {
+        change: function (data, ui) {
+          var val = data.value;
+          ui.data('value', val);
+          bt_cc_eval_conditions(val, jQuery(ui).closest('.btQuoteSelect').data('condition'));
+          bt_quote_total(jQuery(ui).closest('.btQuoteBooking'));
+          bt_paypal_items(jQuery(ui).closest('.btQuoteBooking'));
+        }
       }
-    })();</script>
-  <script type="text/html" id="wpb-modifications"></script>
-  <script src='http://qesco.themezinho.net/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.7.5.1'
-    id='swv-js'></script>
-  <script id='contact-form-7-js-extra'>
-    var wpcf7 = { "api": { "root": "http:\/\/qesco.themezinho.net\/wp-json\/", "namespace": "contact-form-7\/v1" }, "cached": "1" };
-  </script>
-  <script src='http://qesco.themezinho.net/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.7.5.1'
-    id='contact-form-7-js'></script>
-  <script id='ppress-frontend-script-js-extra'>
-    var pp_ajax_form = { "ajaxurl": "http:\/\/qesco.themezinho.net\/wp-admin\/admin-ajax.php", "confirm_delete": "Are you sure?", "deleting_text": "Deleting...", "deleting_error": "An error occurred. Please try again.", "nonce": "5681033987", "disable_ajax_form": "false", "is_checkout": "0", "is_checkout_tax_enabled": "0" };
-  </script>
-  <script src='http://qesco.themezinho.net/wp-content/plugins/wp-user-avatar/assets/js/frontend.min.js?ver=4.8.0'
-    id='ppress-frontend-script-js'></script>
-  <script src='http://qesco.themezinho.net/wp-content/themes/qesco/js/bootstrap.min.js?ver=6.1.1'
-    id='bootstrap-js'></script>
-  <script src='http://qesco.themezinho.net/wp-content/themes/qesco/js/fancybox.min.js?ver=6.1.1'
-    id='fancybox-js'></script>
-  <script
-    src='http://qesco.themezinho.net/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=6.10.0'
-    id='isotope-js'></script>
-  <script src='http://qesco.themezinho.net/wp-content/themes/qesco/js/odometer.min.js?ver=6.1.1'
-    id='odometer-js'></script>
-  <script src='http://qesco.themezinho.net/wp-content/themes/qesco/js/swiper.min.js?ver=6.1.1' id='swiper-js'></script>
-  <script src='http://qesco.themezinho.net/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
-  <script src='http://qesco.themezinho.net/wp-content/themes/qesco/js/jquery.stellar.js?ver=6.1.1'
-    id='stellar-js'></script>
-  <script src='http://qesco.themezinho.net/wp-content/themes/qesco/js/wow.min.js?ver=6.1.1' id='wow-js'></script>
-  <script id='qesco-scripts-js-extra'>
-    var data = { "pre_loader_typewriter": [], "audio_source": "", "enable_sound_bar": "" };
-  </script>
-  <script src='http://qesco.themezinho.net/wp-content/themes/qesco/js/scripts.js?ver=6.1.1'
-    id='qesco-scripts-js'></script>
-  <script
-    src='http://qesco.themezinho.net/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.10.0'
-    id='wpb_composer_front_js-js'></script>
-  <script defer src='http://qesco.themezinho.net/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.9.2'
-    id='mc4wp-forms-api-js'></script>
+    }).data('dd');
+    if (oDropdown) {
+      bt_cc_init_dropdown(oDropdown, '#641e05428aacfW730', 0);
+    }
+    bt_cc_641e05428aacfW730_init_finished = true;
+  }
+}, false);
 
+</script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/js/all.min.js" integrity="sha512-Cvxz1E4gCrYKQfz6Ne+VoDiiLrbFBvc6BPh4iyKo2/ICdIodfgc5Q9cBjRivfQNUXBCEnQWcEInSXsvlNHY/ZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
-    
-    <script src="{% static 'js/track_shipment.js' %}"></script>
 </body>
 
 </html>

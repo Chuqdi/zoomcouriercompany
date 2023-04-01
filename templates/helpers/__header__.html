@@ -1,32 +1,4234 @@
-{% load static %}
-
-<!doctype html>
-<html lang="en-US">
+<!DOCTYPE html>
+<html lang="en-US" data-bt-theme="Wheelco 1.1.9">
 
 <head>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="profile" href="https://gmpg.org/xfn/11">
-  <title>{{ app_name }} | Logistic Shipping Company WordPress Theme &#8211; Just another WordPress site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Main Demo &#8211; Transport, Courier and Moving WP Theme</title>
   <meta name='robots' content='max-image-preview:large' />
+
+  <!-- Google Tag Manager for WordPress by gtm4wp.com -->
+  <script data-cfasync="false" data-pagespeed-no-defer>
+    var gtm4wp_datalayer_name = "dataLayer";
+    var dataLayer = dataLayer || [];
+  </script>
+  <!-- End Google Tag Manager for WordPress by gtm4wp.com -->
   <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-  <link rel="alternate" type="application/rss+xml"
-    title="{{ app_name }} | Logistic Shipping Company WordPress Theme &raquo; Feed" href="http://qesco.themezinho.net/feed/" />
-  <link rel="alternate" type="application/rss+xml"
-    title="Qesco | Logistic Shipping Company WordPress Theme &raquo; Comments Feed"
-    href="http://qesco.themezinho.net/comments/feed/" />
-
-    <!-- FONT AWESOMED -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
-
-
-
-  <script>
-    window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "http:\/\/qesco.themezinho.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1" } };
+  <link rel="alternate" type="application/rss+xml" title="Main Demo &raquo; Feed"
+    href="https://wheelco.bold-themes.com/main-demo/feed/" />
+  <link rel="alternate" type="application/rss+xml" title="Main Demo &raquo; Comments Feed"
+    href="https://wheelco.bold-themes.com/main-demo/comments/feed/" />
+  <script type="text/javascript">
+    window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/wheelco.bold-themes.com\/main-demo\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1" } };
     /*! This file is auto-generated */
     !function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode, e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL()); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (p && p.fillText) switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji))) }(window, document, window._wpemojiSettings);
   </script>
-  <style>
+  <script>window.bt_bb_preview = false</script>
+  <style data-id="bt_bb_color_schemes">
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_1 .bt_bb_progress_bar_bg,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_1 .bt_bb_progress_bar_bg {
+      background: #252525;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_1 .bt_bb_progress_bar_inner,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_1 .bt_bb_progress_bar_inner {
+      border-color: #ffffff;
+      color: #ffffff;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_1 .bt_bb_progress_bar_bg {
+      background: #ffffff;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_1 .bt_bb_progress_bar_inner {
+      background: #252525;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_icon .bt_bb_icon_holder {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_icon:hover a.bt_bb_icon_holder {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+      background-color: transparent;
+      box-shadow: 0 0 0 1px #ffffff inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {
+      background-color: #ffffff;
+      box-shadow: 0 0 0 1em #ffffff inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1em #252525 inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1px #252525 inset;
+      background-color: #ffffff;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_button.bt_bb_style_outline a {
+      box-shadow: 0 0 0 1px #ffffff inset;
+      color: #ffffff;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_button.bt_bb_style_outline a:hover {
+      box-shadow: 0 0 0 2em #ffffff inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_button.bt_bb_style_filled a {
+      box-shadow: 0 0 0 2em #252525 inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_button.bt_bb_style_filled a:hover {
+      box-shadow: 0 0 0 0px #252525 inset;
+      background-color: #ffffff;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_button.bt_bb_style_clean a,
+    .bt_bb_color_scheme_1.bt_bb_icon.bt_bb_style_borderless a {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_button.bt_bb_style_clean a:hover,
+    .bt_bb_color_scheme_1.bt_bb_icon.bt_bb_style_borderless:hover a {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #ffffff inset;
+      color: #ffffff;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #ffffff inset;
+      background-color: #ffffff;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #252525 inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #252525 inset;
+      background-color: #ffffff;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_headline {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_headline .bt_bb_headline_superheadline {
+      color: #252525;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_outline .bt_bb_tabs_header,
+    .bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_filled .bt_bb_tabs_header {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_outline .bt_bb_tabs_header li,
+    .bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_filled .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_filled .bt_bb_tabs_header li.on {
+      border-color: #ffffff;
+      color: #ffffff;
+      background-color: transparent;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_outline .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_outline .bt_bb_tabs_header li.on,
+    .bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_filled .bt_bb_tabs_header li {
+      background-color: #ffffff;
+      color: #252525;
+      border-color: #ffffff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #252525;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_simple .bt_bb_tabs_header li.on {
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_1 .bt_bb_accordion_item {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_1.bt_bb_style_outline .bt_bb_accordion_item_title {
+      border-color: #ffffff;
+      color: #ffffff;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_1.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_1.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #252525;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_1.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #252525;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_1.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_1.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #ffffff;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_1.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_1.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,
+    .bt_bb_accordion.bt_bb_color_scheme_1.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #252525;
+      border-color: #252525;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_1 {
+      border-color: #252525;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_1 .bt_bb_price_list_title {
+      color: #ffffff;
+      background-color: #252525;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_1 ul li {
+      border-color: #252525;
+    }
+
+    .bt_bb_section.bt_bb_color_scheme_1 {
+      color: #ffffff;
+      background-color: #252525;
+    }
+
+    .bt_bb_row.bt_bb_color_scheme_1 {
+      color: #ffffff;
+      background-color: #252525;
+    }
+
+    .bt_bb_column.bt_bb_color_scheme_1 {
+      color: #ffffff;
+      background-color: #252525;
+    }
+
+    .bt_bb_column .bt_bb_column_content.bt_bb_inner_color_scheme_1 {
+      color: #ffffff;
+      background-color: #252525;
+    }
+
+    .bt_bb_column_inner.bt_bb_color_scheme_1 {
+      color: #ffffff;
+      background-color: #252525;
+    }
+
+    .bt_bb_column_inner .bt_bb_column_inner_content.bt_bb_inner_color_scheme_1 {
+      color: #ffffff;
+      background-color: #252525;
+    }
+
+    .bt_bb_separator_v2.bt_bb_color_scheme_1 {
+      color: #ffffff;
+    }
+
+    div.bt_bb_color_scheme_1.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_before,
+    div.bt_bb_color_scheme_1.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_after {
+      border-color: #252525;
+    }
+
+    .bt_bb_color_scheme_1.bt_bb_headline .bt_bb_headline_subheadline {
+      color: #252525;
+    }
+
+    .bt_bb_button.bt_bb_color_scheme_1.bt_bb_style_outline a {
+      box-shadow: 0 0 0 2px #ffffff inset;
+    }
+
+    .bt_bb_icon.bt_bb_color_scheme_1.bt_bb_style_outline .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 2px #ffffff inset;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_1.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #ffffff;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_1 .bt_bb_service_content .bt_bb_service_content_title a {
+      color: #252525;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_1.bt_bb_style_outline .bt_bb_icon_holder {
+      box-shadow: 0 0 0 2px #ffffff inset;
+    }
+  </style>
+  <style data-id="bt_bb_color_schemes">
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_2 .bt_bb_progress_bar_bg,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_2 .bt_bb_progress_bar_bg {
+      background: #ffffff;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_2 .bt_bb_progress_bar_inner,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_2 .bt_bb_progress_bar_inner {
+      border-color: #252525;
+      color: #252525;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_2 .bt_bb_progress_bar_bg {
+      background: #252525;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_2 .bt_bb_progress_bar_inner {
+      background: #ffffff;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_icon .bt_bb_icon_holder {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_icon:hover a.bt_bb_icon_holder {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+      background-color: transparent;
+      box-shadow: 0 0 0 1px #252525 inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {
+      background-color: #252525;
+      box-shadow: 0 0 0 1em #252525 inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1em #ffffff inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1px #ffffff inset;
+      background-color: #252525;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_button.bt_bb_style_outline a {
+      box-shadow: 0 0 0 1px #252525 inset;
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_button.bt_bb_style_outline a:hover {
+      box-shadow: 0 0 0 2em #252525 inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_button.bt_bb_style_filled a {
+      box-shadow: 0 0 0 2em #ffffff inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_button.bt_bb_style_filled a:hover {
+      box-shadow: 0 0 0 0px #ffffff inset;
+      background-color: #252525;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_button.bt_bb_style_clean a,
+    .bt_bb_color_scheme_2.bt_bb_icon.bt_bb_style_borderless a {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_button.bt_bb_style_clean a:hover,
+    .bt_bb_color_scheme_2.bt_bb_icon.bt_bb_style_borderless:hover a {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #252525 inset;
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #252525 inset;
+      background-color: #252525;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #ffffff inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #ffffff inset;
+      background-color: #252525;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_headline {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_headline .bt_bb_headline_superheadline {
+      color: #ffffff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_outline .bt_bb_tabs_header,
+    .bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_filled .bt_bb_tabs_header {
+      border-color: #252525;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_outline .bt_bb_tabs_header li,
+    .bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_filled .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_filled .bt_bb_tabs_header li.on {
+      border-color: #252525;
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_outline .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_outline .bt_bb_tabs_header li.on,
+    .bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_filled .bt_bb_tabs_header li {
+      background-color: #252525;
+      color: #ffffff;
+      border-color: #252525;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #ffffff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_simple .bt_bb_tabs_header li.on {
+      color: #252525;
+      border-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_2 .bt_bb_accordion_item {
+      border-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_2.bt_bb_style_outline .bt_bb_accordion_item_title {
+      border-color: #252525;
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_2.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_2.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #ffffff;
+      background-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_2.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #ffffff;
+      background-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_2.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_2.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_2.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #252525;
+      border-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_2.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,
+    .bt_bb_accordion.bt_bb_color_scheme_2.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_2 {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_2 .bt_bb_price_list_title {
+      color: #252525;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_2 ul li {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_section.bt_bb_color_scheme_2 {
+      color: #252525;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_row.bt_bb_color_scheme_2 {
+      color: #252525;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column.bt_bb_color_scheme_2 {
+      color: #252525;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column .bt_bb_column_content.bt_bb_inner_color_scheme_2 {
+      color: #252525;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column_inner.bt_bb_color_scheme_2 {
+      color: #252525;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column_inner .bt_bb_column_inner_content.bt_bb_inner_color_scheme_2 {
+      color: #252525;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_separator_v2.bt_bb_color_scheme_2 {
+      color: #252525;
+    }
+
+    div.bt_bb_color_scheme_2.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_before,
+    div.bt_bb_color_scheme_2.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_after {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_2.bt_bb_headline .bt_bb_headline_subheadline {
+      color: #ffffff;
+    }
+
+    .bt_bb_button.bt_bb_color_scheme_2.bt_bb_style_outline a {
+      box-shadow: 0 0 0 2px #252525 inset;
+    }
+
+    .bt_bb_icon.bt_bb_color_scheme_2.bt_bb_style_outline .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 2px #252525 inset;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_2.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #252525;
+      border-color: #252525;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #252525;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_2 .bt_bb_service_content .bt_bb_service_content_title a {
+      color: #ffffff;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_2.bt_bb_style_outline .bt_bb_icon_holder {
+      box-shadow: 0 0 0 2px #252525 inset;
+    }
+  </style>
+  <style data-id="bt_bb_color_schemes">
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_3 .bt_bb_progress_bar_bg,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_3 .bt_bb_progress_bar_bg {
+      background: #252525;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_3 .bt_bb_progress_bar_inner,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_3 .bt_bb_progress_bar_inner {
+      border-color: #FFAE02;
+      color: #FFAE02;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_3 .bt_bb_progress_bar_bg {
+      background: #FFAE02;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_3 .bt_bb_progress_bar_inner {
+      background: #252525;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_icon .bt_bb_icon_holder {
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_icon:hover a.bt_bb_icon_holder {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+      background-color: transparent;
+      box-shadow: 0 0 0 1px #FFAE02 inset;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {
+      background-color: #FFAE02;
+      box-shadow: 0 0 0 1em #FFAE02 inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1em #252525 inset;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1px #252525 inset;
+      background-color: #FFAE02;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_button.bt_bb_style_outline a {
+      box-shadow: 0 0 0 1px #FFAE02 inset;
+      color: #FFAE02;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_button.bt_bb_style_outline a:hover {
+      box-shadow: 0 0 0 2em #FFAE02 inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_button.bt_bb_style_filled a {
+      box-shadow: 0 0 0 2em #252525 inset;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_button.bt_bb_style_filled a:hover {
+      box-shadow: 0 0 0 0px #252525 inset;
+      background-color: #FFAE02;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_button.bt_bb_style_clean a,
+    .bt_bb_color_scheme_3.bt_bb_icon.bt_bb_style_borderless a {
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_button.bt_bb_style_clean a:hover,
+    .bt_bb_color_scheme_3.bt_bb_icon.bt_bb_style_borderless:hover a {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #FFAE02 inset;
+      color: #FFAE02;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #FFAE02 inset;
+      background-color: #FFAE02;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #252525 inset;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #252525 inset;
+      background-color: #FFAE02;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_headline {
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_headline .bt_bb_headline_superheadline {
+      color: #252525;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_outline .bt_bb_tabs_header,
+    .bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_filled .bt_bb_tabs_header {
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_outline .bt_bb_tabs_header li,
+    .bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_filled .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_filled .bt_bb_tabs_header li.on {
+      border-color: #FFAE02;
+      color: #FFAE02;
+      background-color: transparent;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_outline .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_outline .bt_bb_tabs_header li.on,
+    .bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_filled .bt_bb_tabs_header li {
+      background-color: #FFAE02;
+      color: #252525;
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #252525;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_simple .bt_bb_tabs_header li.on {
+      color: #FFAE02;
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_3 .bt_bb_accordion_item {
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_3.bt_bb_style_outline .bt_bb_accordion_item_title {
+      border-color: #FFAE02;
+      color: #FFAE02;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_3.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_3.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #252525;
+      background-color: #FFAE02;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_3.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #252525;
+      background-color: #FFAE02;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_3.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_3.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #FFAE02;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_3.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #FFAE02;
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_3.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,
+    .bt_bb_accordion.bt_bb_color_scheme_3.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #252525;
+      border-color: #252525;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_3 {
+      border-color: #252525;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_3 .bt_bb_price_list_title {
+      color: #FFAE02;
+      background-color: #252525;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_3 ul li {
+      border-color: #252525;
+    }
+
+    .bt_bb_section.bt_bb_color_scheme_3 {
+      color: #FFAE02;
+      background-color: #252525;
+    }
+
+    .bt_bb_row.bt_bb_color_scheme_3 {
+      color: #FFAE02;
+      background-color: #252525;
+    }
+
+    .bt_bb_column.bt_bb_color_scheme_3 {
+      color: #FFAE02;
+      background-color: #252525;
+    }
+
+    .bt_bb_column .bt_bb_column_content.bt_bb_inner_color_scheme_3 {
+      color: #FFAE02;
+      background-color: #252525;
+    }
+
+    .bt_bb_column_inner.bt_bb_color_scheme_3 {
+      color: #FFAE02;
+      background-color: #252525;
+    }
+
+    .bt_bb_column_inner .bt_bb_column_inner_content.bt_bb_inner_color_scheme_3 {
+      color: #FFAE02;
+      background-color: #252525;
+    }
+
+    .bt_bb_separator_v2.bt_bb_color_scheme_3 {
+      color: #FFAE02;
+    }
+
+    div.bt_bb_color_scheme_3.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_before,
+    div.bt_bb_color_scheme_3.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_after {
+      border-color: #252525;
+    }
+
+    .bt_bb_color_scheme_3.bt_bb_headline .bt_bb_headline_subheadline {
+      color: #252525;
+    }
+
+    .bt_bb_button.bt_bb_color_scheme_3.bt_bb_style_outline a {
+      box-shadow: 0 0 0 2px #FFAE02 inset;
+    }
+
+    .bt_bb_icon.bt_bb_color_scheme_3.bt_bb_style_outline .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 2px #FFAE02 inset;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_3.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #FFAE02;
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #FFAE02;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_3 .bt_bb_service_content .bt_bb_service_content_title a {
+      color: #252525;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_3.bt_bb_style_outline .bt_bb_icon_holder {
+      box-shadow: 0 0 0 2px #FFAE02 inset;
+    }
+  </style>
+  <style data-id="bt_bb_color_schemes">
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_4 .bt_bb_progress_bar_bg,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_4 .bt_bb_progress_bar_bg {
+      background: #ffffff;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_4 .bt_bb_progress_bar_inner,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_4 .bt_bb_progress_bar_inner {
+      border-color: #FFAE02;
+      color: #FFAE02;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_4 .bt_bb_progress_bar_bg {
+      background: #FFAE02;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_4 .bt_bb_progress_bar_inner {
+      background: #ffffff;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_icon .bt_bb_icon_holder {
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_icon:hover a.bt_bb_icon_holder {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+      background-color: transparent;
+      box-shadow: 0 0 0 1px #FFAE02 inset;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {
+      background-color: #FFAE02;
+      box-shadow: 0 0 0 1em #FFAE02 inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1em #ffffff inset;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1px #ffffff inset;
+      background-color: #FFAE02;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_button.bt_bb_style_outline a {
+      box-shadow: 0 0 0 1px #FFAE02 inset;
+      color: #FFAE02;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_button.bt_bb_style_outline a:hover {
+      box-shadow: 0 0 0 2em #FFAE02 inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_button.bt_bb_style_filled a {
+      box-shadow: 0 0 0 2em #ffffff inset;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_button.bt_bb_style_filled a:hover {
+      box-shadow: 0 0 0 0px #ffffff inset;
+      background-color: #FFAE02;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_button.bt_bb_style_clean a,
+    .bt_bb_color_scheme_4.bt_bb_icon.bt_bb_style_borderless a {
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_button.bt_bb_style_clean a:hover,
+    .bt_bb_color_scheme_4.bt_bb_icon.bt_bb_style_borderless:hover a {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #FFAE02 inset;
+      color: #FFAE02;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #FFAE02 inset;
+      background-color: #FFAE02;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #ffffff inset;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #ffffff inset;
+      background-color: #FFAE02;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_headline {
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_headline .bt_bb_headline_superheadline {
+      color: #ffffff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_outline .bt_bb_tabs_header,
+    .bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_filled .bt_bb_tabs_header {
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_outline .bt_bb_tabs_header li,
+    .bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_filled .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_filled .bt_bb_tabs_header li.on {
+      border-color: #FFAE02;
+      color: #FFAE02;
+      background-color: transparent;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_outline .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_outline .bt_bb_tabs_header li.on,
+    .bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_filled .bt_bb_tabs_header li {
+      background-color: #FFAE02;
+      color: #ffffff;
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #ffffff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_simple .bt_bb_tabs_header li.on {
+      color: #FFAE02;
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_4 .bt_bb_accordion_item {
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_4.bt_bb_style_outline .bt_bb_accordion_item_title {
+      border-color: #FFAE02;
+      color: #FFAE02;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_4.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_4.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #ffffff;
+      background-color: #FFAE02;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_4.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #ffffff;
+      background-color: #FFAE02;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_4.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_4.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #FFAE02;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_4.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #FFAE02;
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_4.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,
+    .bt_bb_accordion.bt_bb_color_scheme_4.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_4 {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_4 .bt_bb_price_list_title {
+      color: #FFAE02;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_4 ul li {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_section.bt_bb_color_scheme_4 {
+      color: #FFAE02;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_row.bt_bb_color_scheme_4 {
+      color: #FFAE02;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column.bt_bb_color_scheme_4 {
+      color: #FFAE02;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column .bt_bb_column_content.bt_bb_inner_color_scheme_4 {
+      color: #FFAE02;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column_inner.bt_bb_color_scheme_4 {
+      color: #FFAE02;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column_inner .bt_bb_column_inner_content.bt_bb_inner_color_scheme_4 {
+      color: #FFAE02;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_separator_v2.bt_bb_color_scheme_4 {
+      color: #FFAE02;
+    }
+
+    div.bt_bb_color_scheme_4.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_before,
+    div.bt_bb_color_scheme_4.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_after {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_4.bt_bb_headline .bt_bb_headline_subheadline {
+      color: #ffffff;
+    }
+
+    .bt_bb_button.bt_bb_color_scheme_4.bt_bb_style_outline a {
+      box-shadow: 0 0 0 2px #FFAE02 inset;
+    }
+
+    .bt_bb_icon.bt_bb_color_scheme_4.bt_bb_style_outline .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 2px #FFAE02 inset;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_4.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #FFAE02;
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #FFAE02;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_4 .bt_bb_service_content .bt_bb_service_content_title a {
+      color: #ffffff;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_4.bt_bb_style_outline .bt_bb_icon_holder {
+      box-shadow: 0 0 0 2px #FFAE02 inset;
+    }
+  </style>
+  <style data-id="bt_bb_color_schemes">
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_5 .bt_bb_progress_bar_bg,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_5 .bt_bb_progress_bar_bg {
+      background: #ffffff;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_5 .bt_bb_progress_bar_inner,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_5 .bt_bb_progress_bar_inner {
+      border-color: #ffea3e;
+      color: #ffea3e;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_5 .bt_bb_progress_bar_bg {
+      background: #ffea3e;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_5 .bt_bb_progress_bar_inner {
+      background: #ffffff;
+      color: #ffea3e;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_icon .bt_bb_icon_holder {
+      color: #ffea3e;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_icon:hover a.bt_bb_icon_holder {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+      background-color: transparent;
+      box-shadow: 0 0 0 1px #ffea3e inset;
+      color: #ffea3e;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {
+      background-color: #ffea3e;
+      box-shadow: 0 0 0 1em #ffea3e inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1em #ffffff inset;
+      color: #ffea3e;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1px #ffffff inset;
+      background-color: #ffea3e;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+      color: #ffea3e;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_button.bt_bb_style_outline a {
+      box-shadow: 0 0 0 1px #ffea3e inset;
+      color: #ffea3e;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_button.bt_bb_style_outline a:hover {
+      box-shadow: 0 0 0 2em #ffea3e inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_button.bt_bb_style_filled a {
+      box-shadow: 0 0 0 2em #ffffff inset;
+      color: #ffea3e;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_button.bt_bb_style_filled a:hover {
+      box-shadow: 0 0 0 0px #ffffff inset;
+      background-color: #ffea3e;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_button.bt_bb_style_clean a,
+    .bt_bb_color_scheme_5.bt_bb_icon.bt_bb_style_borderless a {
+      color: #ffea3e;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_button.bt_bb_style_clean a:hover,
+    .bt_bb_color_scheme_5.bt_bb_icon.bt_bb_style_borderless:hover a {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #ffea3e inset;
+      color: #ffea3e;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #ffea3e inset;
+      background-color: #ffea3e;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #ffffff inset;
+      color: #ffea3e;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #ffffff inset;
+      background-color: #ffea3e;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+      color: #ffea3e;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_headline {
+      color: #ffea3e;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_headline .bt_bb_headline_superheadline {
+      color: #ffffff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_outline .bt_bb_tabs_header,
+    .bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_filled .bt_bb_tabs_header {
+      border-color: #ffea3e;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_outline .bt_bb_tabs_header li,
+    .bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_filled .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_filled .bt_bb_tabs_header li.on {
+      border-color: #ffea3e;
+      color: #ffea3e;
+      background-color: transparent;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_outline .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_outline .bt_bb_tabs_header li.on,
+    .bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_filled .bt_bb_tabs_header li {
+      background-color: #ffea3e;
+      color: #ffffff;
+      border-color: #ffea3e;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #ffffff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_simple .bt_bb_tabs_header li.on {
+      color: #ffea3e;
+      border-color: #ffea3e;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_5 .bt_bb_accordion_item {
+      border-color: #ffea3e;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_5.bt_bb_style_outline .bt_bb_accordion_item_title {
+      border-color: #ffea3e;
+      color: #ffea3e;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_5.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_5.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #ffffff;
+      background-color: #ffea3e;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_5.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #ffffff;
+      background-color: #ffea3e;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_5.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_5.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #ffea3e;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_5.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #ffea3e;
+      border-color: #ffea3e;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_5.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,
+    .bt_bb_accordion.bt_bb_color_scheme_5.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_5 {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_5 .bt_bb_price_list_title {
+      color: #ffea3e;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_5 ul li {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_section.bt_bb_color_scheme_5 {
+      color: #ffea3e;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_row.bt_bb_color_scheme_5 {
+      color: #ffea3e;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column.bt_bb_color_scheme_5 {
+      color: #ffea3e;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column .bt_bb_column_content.bt_bb_inner_color_scheme_5 {
+      color: #ffea3e;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column_inner.bt_bb_color_scheme_5 {
+      color: #ffea3e;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column_inner .bt_bb_column_inner_content.bt_bb_inner_color_scheme_5 {
+      color: #ffea3e;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_separator_v2.bt_bb_color_scheme_5 {
+      color: #ffea3e;
+    }
+
+    div.bt_bb_color_scheme_5.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_before,
+    div.bt_bb_color_scheme_5.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_after {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_5.bt_bb_headline .bt_bb_headline_subheadline {
+      color: #ffffff;
+    }
+
+    .bt_bb_button.bt_bb_color_scheme_5.bt_bb_style_outline a {
+      box-shadow: 0 0 0 2px #ffea3e inset;
+    }
+
+    .bt_bb_icon.bt_bb_color_scheme_5.bt_bb_style_outline .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 2px #ffea3e inset;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_5.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #ffea3e;
+      border-color: #ffea3e;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #ffea3e;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_5 .bt_bb_service_content .bt_bb_service_content_title a {
+      color: #ffffff;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_5.bt_bb_style_outline .bt_bb_icon_holder {
+      box-shadow: 0 0 0 2px #ffea3e inset;
+    }
+  </style>
+  <style data-id="bt_bb_color_schemes">
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_6 .bt_bb_progress_bar_bg,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_6 .bt_bb_progress_bar_bg {
+      background: #ffffff;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_6 .bt_bb_progress_bar_inner,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_6 .bt_bb_progress_bar_inner {
+      border-color: #4165df;
+      color: #4165df;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_6 .bt_bb_progress_bar_bg {
+      background: #4165df;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_6 .bt_bb_progress_bar_inner {
+      background: #ffffff;
+      color: #4165df;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_icon .bt_bb_icon_holder {
+      color: #4165df;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_icon:hover a.bt_bb_icon_holder {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+      background-color: transparent;
+      box-shadow: 0 0 0 1px #4165df inset;
+      color: #4165df;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {
+      background-color: #4165df;
+      box-shadow: 0 0 0 1em #4165df inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1em #ffffff inset;
+      color: #4165df;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1px #ffffff inset;
+      background-color: #4165df;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+      color: #4165df;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_button.bt_bb_style_outline a {
+      box-shadow: 0 0 0 1px #4165df inset;
+      color: #4165df;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_button.bt_bb_style_outline a:hover {
+      box-shadow: 0 0 0 2em #4165df inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_button.bt_bb_style_filled a {
+      box-shadow: 0 0 0 2em #ffffff inset;
+      color: #4165df;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_button.bt_bb_style_filled a:hover {
+      box-shadow: 0 0 0 0px #ffffff inset;
+      background-color: #4165df;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_button.bt_bb_style_clean a,
+    .bt_bb_color_scheme_6.bt_bb_icon.bt_bb_style_borderless a {
+      color: #4165df;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_button.bt_bb_style_clean a:hover,
+    .bt_bb_color_scheme_6.bt_bb_icon.bt_bb_style_borderless:hover a {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #4165df inset;
+      color: #4165df;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #4165df inset;
+      background-color: #4165df;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #ffffff inset;
+      color: #4165df;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #ffffff inset;
+      background-color: #4165df;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+      color: #4165df;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_headline {
+      color: #4165df;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_headline .bt_bb_headline_superheadline {
+      color: #ffffff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_outline .bt_bb_tabs_header,
+    .bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_filled .bt_bb_tabs_header {
+      border-color: #4165df;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_outline .bt_bb_tabs_header li,
+    .bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_filled .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_filled .bt_bb_tabs_header li.on {
+      border-color: #4165df;
+      color: #4165df;
+      background-color: transparent;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_outline .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_outline .bt_bb_tabs_header li.on,
+    .bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_filled .bt_bb_tabs_header li {
+      background-color: #4165df;
+      color: #ffffff;
+      border-color: #4165df;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #ffffff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_simple .bt_bb_tabs_header li.on {
+      color: #4165df;
+      border-color: #4165df;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_6 .bt_bb_accordion_item {
+      border-color: #4165df;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_6.bt_bb_style_outline .bt_bb_accordion_item_title {
+      border-color: #4165df;
+      color: #4165df;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_6.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_6.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #ffffff;
+      background-color: #4165df;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_6.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #ffffff;
+      background-color: #4165df;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_6.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_6.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #4165df;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_6.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #4165df;
+      border-color: #4165df;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_6.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,
+    .bt_bb_accordion.bt_bb_color_scheme_6.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_6 {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_6 .bt_bb_price_list_title {
+      color: #4165df;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_6 ul li {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_section.bt_bb_color_scheme_6 {
+      color: #4165df;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_row.bt_bb_color_scheme_6 {
+      color: #4165df;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column.bt_bb_color_scheme_6 {
+      color: #4165df;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column .bt_bb_column_content.bt_bb_inner_color_scheme_6 {
+      color: #4165df;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column_inner.bt_bb_color_scheme_6 {
+      color: #4165df;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column_inner .bt_bb_column_inner_content.bt_bb_inner_color_scheme_6 {
+      color: #4165df;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_separator_v2.bt_bb_color_scheme_6 {
+      color: #4165df;
+    }
+
+    div.bt_bb_color_scheme_6.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_before,
+    div.bt_bb_color_scheme_6.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_after {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_6.bt_bb_headline .bt_bb_headline_subheadline {
+      color: #ffffff;
+    }
+
+    .bt_bb_button.bt_bb_color_scheme_6.bt_bb_style_outline a {
+      box-shadow: 0 0 0 2px #4165df inset;
+    }
+
+    .bt_bb_icon.bt_bb_color_scheme_6.bt_bb_style_outline .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 2px #4165df inset;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_6.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #4165df;
+      border-color: #4165df;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #4165df;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_6 .bt_bb_service_content .bt_bb_service_content_title a {
+      color: #ffffff;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_6.bt_bb_style_outline .bt_bb_icon_holder {
+      box-shadow: 0 0 0 2px #4165df inset;
+    }
+  </style>
+  <style data-id="bt_bb_color_schemes">
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_7 .bt_bb_progress_bar_bg,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_7 .bt_bb_progress_bar_bg {
+      background: #FFAE02;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_7 .bt_bb_progress_bar_inner,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_7 .bt_bb_progress_bar_inner {
+      border-color: #252525;
+      color: #252525;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_7 .bt_bb_progress_bar_bg {
+      background: #252525;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_7 .bt_bb_progress_bar_inner {
+      background: #FFAE02;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_icon .bt_bb_icon_holder {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_icon:hover a.bt_bb_icon_holder {
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+      background-color: transparent;
+      box-shadow: 0 0 0 1px #252525 inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {
+      background-color: #252525;
+      box-shadow: 0 0 0 1em #252525 inset;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1em #FFAE02 inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1px #FFAE02 inset;
+      background-color: #252525;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_button.bt_bb_style_outline a {
+      box-shadow: 0 0 0 1px #252525 inset;
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_button.bt_bb_style_outline a:hover {
+      box-shadow: 0 0 0 2em #252525 inset;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_button.bt_bb_style_filled a {
+      box-shadow: 0 0 0 2em #FFAE02 inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_button.bt_bb_style_filled a:hover {
+      box-shadow: 0 0 0 0px #FFAE02 inset;
+      background-color: #252525;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_button.bt_bb_style_clean a,
+    .bt_bb_color_scheme_7.bt_bb_icon.bt_bb_style_borderless a {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_button.bt_bb_style_clean a:hover,
+    .bt_bb_color_scheme_7.bt_bb_icon.bt_bb_style_borderless:hover a {
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #252525 inset;
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #252525 inset;
+      background-color: #252525;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #FFAE02 inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #FFAE02 inset;
+      background-color: #252525;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_headline {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_headline .bt_bb_headline_superheadline {
+      color: #FFAE02;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_outline .bt_bb_tabs_header,
+    .bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_filled .bt_bb_tabs_header {
+      border-color: #252525;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_outline .bt_bb_tabs_header li,
+    .bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_filled .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_filled .bt_bb_tabs_header li.on {
+      border-color: #252525;
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_outline .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_outline .bt_bb_tabs_header li.on,
+    .bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_filled .bt_bb_tabs_header li {
+      background-color: #252525;
+      color: #FFAE02;
+      border-color: #252525;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #FFAE02;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_simple .bt_bb_tabs_header li.on {
+      color: #252525;
+      border-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_7 .bt_bb_accordion_item {
+      border-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_7.bt_bb_style_outline .bt_bb_accordion_item_title {
+      border-color: #252525;
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_7.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_7.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #FFAE02;
+      background-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_7.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #FFAE02;
+      background-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_7.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_7.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_7.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #252525;
+      border-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_7.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,
+    .bt_bb_accordion.bt_bb_color_scheme_7.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #FFAE02;
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_7 {
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_7 .bt_bb_price_list_title {
+      color: #252525;
+      background-color: #FFAE02;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_7 ul li {
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_section.bt_bb_color_scheme_7 {
+      color: #252525;
+      background-color: #FFAE02;
+    }
+
+    .bt_bb_row.bt_bb_color_scheme_7 {
+      color: #252525;
+      background-color: #FFAE02;
+    }
+
+    .bt_bb_column.bt_bb_color_scheme_7 {
+      color: #252525;
+      background-color: #FFAE02;
+    }
+
+    .bt_bb_column .bt_bb_column_content.bt_bb_inner_color_scheme_7 {
+      color: #252525;
+      background-color: #FFAE02;
+    }
+
+    .bt_bb_column_inner.bt_bb_color_scheme_7 {
+      color: #252525;
+      background-color: #FFAE02;
+    }
+
+    .bt_bb_column_inner .bt_bb_column_inner_content.bt_bb_inner_color_scheme_7 {
+      color: #252525;
+      background-color: #FFAE02;
+    }
+
+    .bt_bb_separator_v2.bt_bb_color_scheme_7 {
+      color: #252525;
+    }
+
+    div.bt_bb_color_scheme_7.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_before,
+    div.bt_bb_color_scheme_7.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_after {
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_7.bt_bb_headline .bt_bb_headline_subheadline {
+      color: #FFAE02;
+    }
+
+    .bt_bb_button.bt_bb_color_scheme_7.bt_bb_style_outline a {
+      box-shadow: 0 0 0 2px #252525 inset;
+    }
+
+    .bt_bb_icon.bt_bb_color_scheme_7.bt_bb_style_outline .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 2px #252525 inset;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_7.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #252525;
+      border-color: #252525;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #252525;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_7 .bt_bb_service_content .bt_bb_service_content_title a {
+      color: #FFAE02;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_7.bt_bb_style_outline .bt_bb_icon_holder {
+      box-shadow: 0 0 0 2px #252525 inset;
+    }
+  </style>
+  <style data-id="bt_bb_color_schemes">
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_8 .bt_bb_progress_bar_bg,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_8 .bt_bb_progress_bar_bg {
+      background: #FFAE02;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_8 .bt_bb_progress_bar_inner,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_8 .bt_bb_progress_bar_inner {
+      border-color: #ffffff;
+      color: #ffffff;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_8 .bt_bb_progress_bar_bg {
+      background: #ffffff;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_8 .bt_bb_progress_bar_inner {
+      background: #FFAE02;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_icon .bt_bb_icon_holder {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_icon:hover a.bt_bb_icon_holder {
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+      background-color: transparent;
+      box-shadow: 0 0 0 1px #ffffff inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {
+      background-color: #ffffff;
+      box-shadow: 0 0 0 1em #ffffff inset;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1em #FFAE02 inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1px #FFAE02 inset;
+      background-color: #ffffff;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_button.bt_bb_style_outline a {
+      box-shadow: 0 0 0 1px #ffffff inset;
+      color: #ffffff;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_button.bt_bb_style_outline a:hover {
+      box-shadow: 0 0 0 2em #ffffff inset;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_button.bt_bb_style_filled a {
+      box-shadow: 0 0 0 2em #FFAE02 inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_button.bt_bb_style_filled a:hover {
+      box-shadow: 0 0 0 0px #FFAE02 inset;
+      background-color: #ffffff;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_button.bt_bb_style_clean a,
+    .bt_bb_color_scheme_8.bt_bb_icon.bt_bb_style_borderless a {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_button.bt_bb_style_clean a:hover,
+    .bt_bb_color_scheme_8.bt_bb_icon.bt_bb_style_borderless:hover a {
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #ffffff inset;
+      color: #ffffff;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #ffffff inset;
+      background-color: #ffffff;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #FFAE02 inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #FFAE02 inset;
+      background-color: #ffffff;
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+      color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_headline {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_headline .bt_bb_headline_superheadline {
+      color: #FFAE02;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_outline .bt_bb_tabs_header,
+    .bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_filled .bt_bb_tabs_header {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_outline .bt_bb_tabs_header li,
+    .bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_filled .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_filled .bt_bb_tabs_header li.on {
+      border-color: #ffffff;
+      color: #ffffff;
+      background-color: transparent;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_outline .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_outline .bt_bb_tabs_header li.on,
+    .bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_filled .bt_bb_tabs_header li {
+      background-color: #ffffff;
+      color: #FFAE02;
+      border-color: #ffffff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #FFAE02;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_simple .bt_bb_tabs_header li.on {
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_8 .bt_bb_accordion_item {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_8.bt_bb_style_outline .bt_bb_accordion_item_title {
+      border-color: #ffffff;
+      color: #ffffff;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_8.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_8.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #FFAE02;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_8.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #FFAE02;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_8.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_8.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #ffffff;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_8.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_8.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,
+    .bt_bb_accordion.bt_bb_color_scheme_8.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #FFAE02;
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_8 {
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_8 .bt_bb_price_list_title {
+      color: #ffffff;
+      background-color: #FFAE02;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_8 ul li {
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_section.bt_bb_color_scheme_8 {
+      color: #ffffff;
+      background-color: #FFAE02;
+    }
+
+    .bt_bb_row.bt_bb_color_scheme_8 {
+      color: #ffffff;
+      background-color: #FFAE02;
+    }
+
+    .bt_bb_column.bt_bb_color_scheme_8 {
+      color: #ffffff;
+      background-color: #FFAE02;
+    }
+
+    .bt_bb_column .bt_bb_column_content.bt_bb_inner_color_scheme_8 {
+      color: #ffffff;
+      background-color: #FFAE02;
+    }
+
+    .bt_bb_column_inner.bt_bb_color_scheme_8 {
+      color: #ffffff;
+      background-color: #FFAE02;
+    }
+
+    .bt_bb_column_inner .bt_bb_column_inner_content.bt_bb_inner_color_scheme_8 {
+      color: #ffffff;
+      background-color: #FFAE02;
+    }
+
+    .bt_bb_separator_v2.bt_bb_color_scheme_8 {
+      color: #ffffff;
+    }
+
+    div.bt_bb_color_scheme_8.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_before,
+    div.bt_bb_color_scheme_8.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_after {
+      border-color: #FFAE02;
+    }
+
+    .bt_bb_color_scheme_8.bt_bb_headline .bt_bb_headline_subheadline {
+      color: #FFAE02;
+    }
+
+    .bt_bb_button.bt_bb_color_scheme_8.bt_bb_style_outline a {
+      box-shadow: 0 0 0 2px #ffffff inset;
+    }
+
+    .bt_bb_icon.bt_bb_color_scheme_8.bt_bb_style_outline .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 2px #ffffff inset;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_8.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #ffffff;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_8 .bt_bb_service_content .bt_bb_service_content_title a {
+      color: #FFAE02;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_8.bt_bb_style_outline .bt_bb_icon_holder {
+      box-shadow: 0 0 0 2px #ffffff inset;
+    }
+  </style>
+  <style data-id="bt_bb_color_schemes">
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_9 .bt_bb_progress_bar_bg,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_9 .bt_bb_progress_bar_bg {
+      background: #252525;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_9 .bt_bb_progress_bar_inner,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_9 .bt_bb_progress_bar_inner {
+      border-color: #0529A3;
+      color: #0529A3;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_9 .bt_bb_progress_bar_bg {
+      background: #0529A3;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_9 .bt_bb_progress_bar_inner {
+      background: #252525;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_icon .bt_bb_icon_holder {
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_icon:hover a.bt_bb_icon_holder {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+      background-color: transparent;
+      box-shadow: 0 0 0 1px #0529A3 inset;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {
+      background-color: #0529A3;
+      box-shadow: 0 0 0 1em #0529A3 inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1em #252525 inset;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1px #252525 inset;
+      background-color: #0529A3;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_button.bt_bb_style_outline a {
+      box-shadow: 0 0 0 1px #0529A3 inset;
+      color: #0529A3;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_button.bt_bb_style_outline a:hover {
+      box-shadow: 0 0 0 2em #0529A3 inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_button.bt_bb_style_filled a {
+      box-shadow: 0 0 0 2em #252525 inset;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_button.bt_bb_style_filled a:hover {
+      box-shadow: 0 0 0 0px #252525 inset;
+      background-color: #0529A3;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_button.bt_bb_style_clean a,
+    .bt_bb_color_scheme_9.bt_bb_icon.bt_bb_style_borderless a {
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_button.bt_bb_style_clean a:hover,
+    .bt_bb_color_scheme_9.bt_bb_icon.bt_bb_style_borderless:hover a {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #0529A3 inset;
+      color: #0529A3;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #0529A3 inset;
+      background-color: #0529A3;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #252525 inset;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #252525 inset;
+      background-color: #0529A3;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_headline {
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_headline .bt_bb_headline_superheadline {
+      color: #252525;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_outline .bt_bb_tabs_header,
+    .bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_filled .bt_bb_tabs_header {
+      border-color: #0529A3;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_outline .bt_bb_tabs_header li,
+    .bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_filled .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_filled .bt_bb_tabs_header li.on {
+      border-color: #0529A3;
+      color: #0529A3;
+      background-color: transparent;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_outline .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_outline .bt_bb_tabs_header li.on,
+    .bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_filled .bt_bb_tabs_header li {
+      background-color: #0529A3;
+      color: #252525;
+      border-color: #0529A3;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #252525;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_simple .bt_bb_tabs_header li.on {
+      color: #0529A3;
+      border-color: #0529A3;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_9 .bt_bb_accordion_item {
+      border-color: #0529A3;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_9.bt_bb_style_outline .bt_bb_accordion_item_title {
+      border-color: #0529A3;
+      color: #0529A3;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_9.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_9.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #252525;
+      background-color: #0529A3;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_9.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #252525;
+      background-color: #0529A3;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_9.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_9.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #0529A3;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_9.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #0529A3;
+      border-color: #0529A3;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_9.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,
+    .bt_bb_accordion.bt_bb_color_scheme_9.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #252525;
+      border-color: #252525;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_9 {
+      border-color: #252525;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_9 .bt_bb_price_list_title {
+      color: #0529A3;
+      background-color: #252525;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_9 ul li {
+      border-color: #252525;
+    }
+
+    .bt_bb_section.bt_bb_color_scheme_9 {
+      color: #0529A3;
+      background-color: #252525;
+    }
+
+    .bt_bb_row.bt_bb_color_scheme_9 {
+      color: #0529A3;
+      background-color: #252525;
+    }
+
+    .bt_bb_column.bt_bb_color_scheme_9 {
+      color: #0529A3;
+      background-color: #252525;
+    }
+
+    .bt_bb_column .bt_bb_column_content.bt_bb_inner_color_scheme_9 {
+      color: #0529A3;
+      background-color: #252525;
+    }
+
+    .bt_bb_column_inner.bt_bb_color_scheme_9 {
+      color: #0529A3;
+      background-color: #252525;
+    }
+
+    .bt_bb_column_inner .bt_bb_column_inner_content.bt_bb_inner_color_scheme_9 {
+      color: #0529A3;
+      background-color: #252525;
+    }
+
+    .bt_bb_separator_v2.bt_bb_color_scheme_9 {
+      color: #0529A3;
+    }
+
+    div.bt_bb_color_scheme_9.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_before,
+    div.bt_bb_color_scheme_9.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_after {
+      border-color: #252525;
+    }
+
+    .bt_bb_color_scheme_9.bt_bb_headline .bt_bb_headline_subheadline {
+      color: #252525;
+    }
+
+    .bt_bb_button.bt_bb_color_scheme_9.bt_bb_style_outline a {
+      box-shadow: 0 0 0 2px #0529A3 inset;
+    }
+
+    .bt_bb_icon.bt_bb_color_scheme_9.bt_bb_style_outline .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 2px #0529A3 inset;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_9.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #0529A3;
+      border-color: #0529A3;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #0529A3;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_9 .bt_bb_service_content .bt_bb_service_content_title a {
+      color: #252525;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_9.bt_bb_style_outline .bt_bb_icon_holder {
+      box-shadow: 0 0 0 2px #0529A3 inset;
+    }
+  </style>
+  <style data-id="bt_bb_color_schemes">
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_10 .bt_bb_progress_bar_bg,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_10 .bt_bb_progress_bar_bg {
+      background: #ffffff;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_10 .bt_bb_progress_bar_inner,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_10 .bt_bb_progress_bar_inner {
+      border-color: #0529A3;
+      color: #0529A3;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_10 .bt_bb_progress_bar_bg {
+      background: #0529A3;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_10 .bt_bb_progress_bar_inner {
+      background: #ffffff;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_icon .bt_bb_icon_holder {
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_icon:hover a.bt_bb_icon_holder {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+      background-color: transparent;
+      box-shadow: 0 0 0 1px #0529A3 inset;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {
+      background-color: #0529A3;
+      box-shadow: 0 0 0 1em #0529A3 inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1em #ffffff inset;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1px #ffffff inset;
+      background-color: #0529A3;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_button.bt_bb_style_outline a {
+      box-shadow: 0 0 0 1px #0529A3 inset;
+      color: #0529A3;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_button.bt_bb_style_outline a:hover {
+      box-shadow: 0 0 0 2em #0529A3 inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_button.bt_bb_style_filled a {
+      box-shadow: 0 0 0 2em #ffffff inset;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_button.bt_bb_style_filled a:hover {
+      box-shadow: 0 0 0 0px #ffffff inset;
+      background-color: #0529A3;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_button.bt_bb_style_clean a,
+    .bt_bb_color_scheme_10.bt_bb_icon.bt_bb_style_borderless a {
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_button.bt_bb_style_clean a:hover,
+    .bt_bb_color_scheme_10.bt_bb_icon.bt_bb_style_borderless:hover a {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #0529A3 inset;
+      color: #0529A3;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #0529A3 inset;
+      background-color: #0529A3;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #ffffff inset;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #ffffff inset;
+      background-color: #0529A3;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_headline {
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_headline .bt_bb_headline_superheadline {
+      color: #ffffff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_outline .bt_bb_tabs_header,
+    .bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_filled .bt_bb_tabs_header {
+      border-color: #0529A3;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_outline .bt_bb_tabs_header li,
+    .bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_filled .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_filled .bt_bb_tabs_header li.on {
+      border-color: #0529A3;
+      color: #0529A3;
+      background-color: transparent;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_outline .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_outline .bt_bb_tabs_header li.on,
+    .bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_filled .bt_bb_tabs_header li {
+      background-color: #0529A3;
+      color: #ffffff;
+      border-color: #0529A3;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #ffffff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_simple .bt_bb_tabs_header li.on {
+      color: #0529A3;
+      border-color: #0529A3;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_10 .bt_bb_accordion_item {
+      border-color: #0529A3;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_10.bt_bb_style_outline .bt_bb_accordion_item_title {
+      border-color: #0529A3;
+      color: #0529A3;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_10.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_10.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #ffffff;
+      background-color: #0529A3;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_10.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #ffffff;
+      background-color: #0529A3;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_10.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_10.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #0529A3;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_10.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #0529A3;
+      border-color: #0529A3;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_10.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,
+    .bt_bb_accordion.bt_bb_color_scheme_10.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_10 {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_10 .bt_bb_price_list_title {
+      color: #0529A3;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_10 ul li {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_section.bt_bb_color_scheme_10 {
+      color: #0529A3;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_row.bt_bb_color_scheme_10 {
+      color: #0529A3;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column.bt_bb_color_scheme_10 {
+      color: #0529A3;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column .bt_bb_column_content.bt_bb_inner_color_scheme_10 {
+      color: #0529A3;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column_inner.bt_bb_color_scheme_10 {
+      color: #0529A3;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_column_inner .bt_bb_column_inner_content.bt_bb_inner_color_scheme_10 {
+      color: #0529A3;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_separator_v2.bt_bb_color_scheme_10 {
+      color: #0529A3;
+    }
+
+    div.bt_bb_color_scheme_10.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_before,
+    div.bt_bb_color_scheme_10.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_after {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_10.bt_bb_headline .bt_bb_headline_subheadline {
+      color: #ffffff;
+    }
+
+    .bt_bb_button.bt_bb_color_scheme_10.bt_bb_style_outline a {
+      box-shadow: 0 0 0 2px #0529A3 inset;
+    }
+
+    .bt_bb_icon.bt_bb_color_scheme_10.bt_bb_style_outline .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 2px #0529A3 inset;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_10.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #0529A3;
+      border-color: #0529A3;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #0529A3;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_10 .bt_bb_service_content .bt_bb_service_content_title a {
+      color: #ffffff;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_10.bt_bb_style_outline .bt_bb_icon_holder {
+      box-shadow: 0 0 0 2px #0529A3 inset;
+    }
+  </style>
+  <style data-id="bt_bb_color_schemes">
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_11 .bt_bb_progress_bar_bg,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_11 .bt_bb_progress_bar_bg {
+      background: #0529A3;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_11 .bt_bb_progress_bar_inner,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_11 .bt_bb_progress_bar_inner {
+      border-color: #252525;
+      color: #252525;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_11 .bt_bb_progress_bar_bg {
+      background: #252525;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_11 .bt_bb_progress_bar_inner {
+      background: #0529A3;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_icon .bt_bb_icon_holder {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_icon:hover a.bt_bb_icon_holder {
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+      background-color: transparent;
+      box-shadow: 0 0 0 1px #252525 inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {
+      background-color: #252525;
+      box-shadow: 0 0 0 1em #252525 inset;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1em #0529A3 inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1px #0529A3 inset;
+      background-color: #252525;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_button.bt_bb_style_outline a {
+      box-shadow: 0 0 0 1px #252525 inset;
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_button.bt_bb_style_outline a:hover {
+      box-shadow: 0 0 0 2em #252525 inset;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_button.bt_bb_style_filled a {
+      box-shadow: 0 0 0 2em #0529A3 inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_button.bt_bb_style_filled a:hover {
+      box-shadow: 0 0 0 0px #0529A3 inset;
+      background-color: #252525;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_button.bt_bb_style_clean a,
+    .bt_bb_color_scheme_11.bt_bb_icon.bt_bb_style_borderless a {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_button.bt_bb_style_clean a:hover,
+    .bt_bb_color_scheme_11.bt_bb_icon.bt_bb_style_borderless:hover a {
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #252525 inset;
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #252525 inset;
+      background-color: #252525;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #0529A3 inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #0529A3 inset;
+      background-color: #252525;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_headline {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_headline .bt_bb_headline_superheadline {
+      color: #0529A3;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_outline .bt_bb_tabs_header,
+    .bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_filled .bt_bb_tabs_header {
+      border-color: #252525;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_outline .bt_bb_tabs_header li,
+    .bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_filled .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_filled .bt_bb_tabs_header li.on {
+      border-color: #252525;
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_outline .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_outline .bt_bb_tabs_header li.on,
+    .bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_filled .bt_bb_tabs_header li {
+      background-color: #252525;
+      color: #0529A3;
+      border-color: #252525;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #0529A3;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_simple .bt_bb_tabs_header li.on {
+      color: #252525;
+      border-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_11 .bt_bb_accordion_item {
+      border-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_11.bt_bb_style_outline .bt_bb_accordion_item_title {
+      border-color: #252525;
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_11.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_11.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #0529A3;
+      background-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_11.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #0529A3;
+      background-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_11.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_11.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_11.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #252525;
+      border-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_11.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,
+    .bt_bb_accordion.bt_bb_color_scheme_11.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #0529A3;
+      border-color: #0529A3;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_11 {
+      border-color: #0529A3;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_11 .bt_bb_price_list_title {
+      color: #252525;
+      background-color: #0529A3;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_11 ul li {
+      border-color: #0529A3;
+    }
+
+    .bt_bb_section.bt_bb_color_scheme_11 {
+      color: #252525;
+      background-color: #0529A3;
+    }
+
+    .bt_bb_row.bt_bb_color_scheme_11 {
+      color: #252525;
+      background-color: #0529A3;
+    }
+
+    .bt_bb_column.bt_bb_color_scheme_11 {
+      color: #252525;
+      background-color: #0529A3;
+    }
+
+    .bt_bb_column .bt_bb_column_content.bt_bb_inner_color_scheme_11 {
+      color: #252525;
+      background-color: #0529A3;
+    }
+
+    .bt_bb_column_inner.bt_bb_color_scheme_11 {
+      color: #252525;
+      background-color: #0529A3;
+    }
+
+    .bt_bb_column_inner .bt_bb_column_inner_content.bt_bb_inner_color_scheme_11 {
+      color: #252525;
+      background-color: #0529A3;
+    }
+
+    .bt_bb_separator_v2.bt_bb_color_scheme_11 {
+      color: #252525;
+    }
+
+    div.bt_bb_color_scheme_11.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_before,
+    div.bt_bb_color_scheme_11.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_after {
+      border-color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_11.bt_bb_headline .bt_bb_headline_subheadline {
+      color: #0529A3;
+    }
+
+    .bt_bb_button.bt_bb_color_scheme_11.bt_bb_style_outline a {
+      box-shadow: 0 0 0 2px #252525 inset;
+    }
+
+    .bt_bb_icon.bt_bb_color_scheme_11.bt_bb_style_outline .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 2px #252525 inset;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_11.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #252525;
+      border-color: #252525;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #252525;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_11 .bt_bb_service_content .bt_bb_service_content_title a {
+      color: #0529A3;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_11.bt_bb_style_outline .bt_bb_icon_holder {
+      box-shadow: 0 0 0 2px #252525 inset;
+    }
+  </style>
+  <style data-id="bt_bb_color_schemes">
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_12 .bt_bb_progress_bar_bg,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_12 .bt_bb_progress_bar_bg {
+      background: #0529A3;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_12 .bt_bb_progress_bar_inner,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_12 .bt_bb_progress_bar_inner {
+      border-color: #ffffff;
+      color: #ffffff;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_12 .bt_bb_progress_bar_bg {
+      background: #ffffff;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_12 .bt_bb_progress_bar_inner {
+      background: #0529A3;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_icon .bt_bb_icon_holder {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_icon:hover a.bt_bb_icon_holder {
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+      background-color: transparent;
+      box-shadow: 0 0 0 1px #ffffff inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {
+      background-color: #ffffff;
+      box-shadow: 0 0 0 1em #ffffff inset;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1em #0529A3 inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1px #0529A3 inset;
+      background-color: #ffffff;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_button.bt_bb_style_outline a {
+      box-shadow: 0 0 0 1px #ffffff inset;
+      color: #ffffff;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_button.bt_bb_style_outline a:hover {
+      box-shadow: 0 0 0 2em #ffffff inset;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_button.bt_bb_style_filled a {
+      box-shadow: 0 0 0 2em #0529A3 inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_button.bt_bb_style_filled a:hover {
+      box-shadow: 0 0 0 0px #0529A3 inset;
+      background-color: #ffffff;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_button.bt_bb_style_clean a,
+    .bt_bb_color_scheme_12.bt_bb_icon.bt_bb_style_borderless a {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_button.bt_bb_style_clean a:hover,
+    .bt_bb_color_scheme_12.bt_bb_icon.bt_bb_style_borderless:hover a {
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #ffffff inset;
+      color: #ffffff;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #ffffff inset;
+      background-color: #ffffff;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #0529A3 inset;
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #0529A3 inset;
+      background-color: #ffffff;
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+      color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_headline {
+      color: #ffffff;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_headline .bt_bb_headline_superheadline {
+      color: #0529A3;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_outline .bt_bb_tabs_header,
+    .bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_filled .bt_bb_tabs_header {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_outline .bt_bb_tabs_header li,
+    .bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_filled .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_filled .bt_bb_tabs_header li.on {
+      border-color: #ffffff;
+      color: #ffffff;
+      background-color: transparent;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_outline .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_outline .bt_bb_tabs_header li.on,
+    .bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_filled .bt_bb_tabs_header li {
+      background-color: #ffffff;
+      color: #0529A3;
+      border-color: #ffffff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #0529A3;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_simple .bt_bb_tabs_header li.on {
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_12 .bt_bb_accordion_item {
+      border-color: #ffffff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_12.bt_bb_style_outline .bt_bb_accordion_item_title {
+      border-color: #ffffff;
+      color: #ffffff;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_12.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_12.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #0529A3;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_12.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #0529A3;
+      background-color: #ffffff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_12.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_12.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #ffffff;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_12.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_12.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,
+    .bt_bb_accordion.bt_bb_color_scheme_12.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #0529A3;
+      border-color: #0529A3;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_12 {
+      border-color: #0529A3;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_12 .bt_bb_price_list_title {
+      color: #ffffff;
+      background-color: #0529A3;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_12 ul li {
+      border-color: #0529A3;
+    }
+
+    .bt_bb_section.bt_bb_color_scheme_12 {
+      color: #ffffff;
+      background-color: #0529A3;
+    }
+
+    .bt_bb_row.bt_bb_color_scheme_12 {
+      color: #ffffff;
+      background-color: #0529A3;
+    }
+
+    .bt_bb_column.bt_bb_color_scheme_12 {
+      color: #ffffff;
+      background-color: #0529A3;
+    }
+
+    .bt_bb_column .bt_bb_column_content.bt_bb_inner_color_scheme_12 {
+      color: #ffffff;
+      background-color: #0529A3;
+    }
+
+    .bt_bb_column_inner.bt_bb_color_scheme_12 {
+      color: #ffffff;
+      background-color: #0529A3;
+    }
+
+    .bt_bb_column_inner .bt_bb_column_inner_content.bt_bb_inner_color_scheme_12 {
+      color: #ffffff;
+      background-color: #0529A3;
+    }
+
+    .bt_bb_separator_v2.bt_bb_color_scheme_12 {
+      color: #ffffff;
+    }
+
+    div.bt_bb_color_scheme_12.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_before,
+    div.bt_bb_color_scheme_12.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_after {
+      border-color: #0529A3;
+    }
+
+    .bt_bb_color_scheme_12.bt_bb_headline .bt_bb_headline_subheadline {
+      color: #0529A3;
+    }
+
+    .bt_bb_button.bt_bb_color_scheme_12.bt_bb_style_outline a {
+      box-shadow: 0 0 0 2px #ffffff inset;
+    }
+
+    .bt_bb_icon.bt_bb_color_scheme_12.bt_bb_style_outline .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 2px #ffffff inset;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_12.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #ffffff;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_12 .bt_bb_service_content .bt_bb_service_content_title a {
+      color: #0529A3;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_12.bt_bb_style_outline .bt_bb_icon_holder {
+      box-shadow: 0 0 0 2px #ffffff inset;
+    }
+  </style>
+  <style data-id="bt_bb_color_schemes">
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_13 .bt_bb_progress_bar_bg,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_13 .bt_bb_progress_bar_bg {
+      background: #f5f5f5;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_13 .bt_bb_progress_bar_inner,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_13 .bt_bb_progress_bar_inner {
+      border-color: #252525;
+      color: #252525;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_13 .bt_bb_progress_bar_bg {
+      background: #252525;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_13 .bt_bb_progress_bar_inner {
+      background: #f5f5f5;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_icon .bt_bb_icon_holder {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_icon:hover a.bt_bb_icon_holder {
+      color: #f5f5f5;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+      background-color: transparent;
+      box-shadow: 0 0 0 1px #252525 inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {
+      background-color: #252525;
+      box-shadow: 0 0 0 1em #252525 inset;
+      color: #f5f5f5;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1em #f5f5f5 inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1px #f5f5f5 inset;
+      background-color: #252525;
+      color: #f5f5f5;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {
+      color: #f5f5f5;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_button.bt_bb_style_outline a {
+      box-shadow: 0 0 0 1px #252525 inset;
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_button.bt_bb_style_outline a:hover {
+      box-shadow: 0 0 0 2em #252525 inset;
+      color: #f5f5f5;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_button.bt_bb_style_filled a {
+      box-shadow: 0 0 0 2em #f5f5f5 inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_button.bt_bb_style_filled a:hover {
+      box-shadow: 0 0 0 0px #f5f5f5 inset;
+      background-color: #252525;
+      color: #f5f5f5;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_button.bt_bb_style_clean a,
+    .bt_bb_color_scheme_13.bt_bb_icon.bt_bb_style_borderless a {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_button.bt_bb_style_clean a:hover,
+    .bt_bb_color_scheme_13.bt_bb_icon.bt_bb_style_borderless:hover a {
+      color: #f5f5f5;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #252525 inset;
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #252525 inset;
+      background-color: #252525;
+      color: #f5f5f5;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #f5f5f5 inset;
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #f5f5f5 inset;
+      background-color: #252525;
+      color: #f5f5f5;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+      color: #f5f5f5;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_headline {
+      color: #252525;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_headline .bt_bb_headline_superheadline {
+      color: #f5f5f5;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_13.bt_bb_style_outline .bt_bb_tabs_header,
+    .bt_bb_tabs.bt_bb_color_scheme_13.bt_bb_style_filled .bt_bb_tabs_header {
+      border-color: #252525;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_13.bt_bb_style_outline .bt_bb_tabs_header li,
+    .bt_bb_tabs.bt_bb_color_scheme_13.bt_bb_style_filled .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_13.bt_bb_style_filled .bt_bb_tabs_header li.on {
+      border-color: #252525;
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_13.bt_bb_style_outline .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_13.bt_bb_style_outline .bt_bb_tabs_header li.on,
+    .bt_bb_tabs.bt_bb_color_scheme_13.bt_bb_style_filled .bt_bb_tabs_header li {
+      background-color: #252525;
+      color: #f5f5f5;
+      border-color: #252525;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_13.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #f5f5f5;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_13.bt_bb_style_simple .bt_bb_tabs_header li.on {
+      color: #252525;
+      border-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_13 .bt_bb_accordion_item {
+      border-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_13.bt_bb_style_outline .bt_bb_accordion_item_title {
+      border-color: #252525;
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_13.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_13.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #f5f5f5;
+      background-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_13.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #f5f5f5;
+      background-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_13.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_13.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #252525;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_13.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #252525;
+      border-color: #252525;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_13.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,
+    .bt_bb_accordion.bt_bb_color_scheme_13.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #f5f5f5;
+      border-color: #f5f5f5;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_13 {
+      border-color: #f5f5f5;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_13 .bt_bb_price_list_title {
+      color: #252525;
+      background-color: #f5f5f5;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_13 ul li {
+      border-color: #f5f5f5;
+    }
+
+    .bt_bb_section.bt_bb_color_scheme_13 {
+      color: #252525;
+      background-color: #f5f5f5;
+    }
+
+    .bt_bb_row.bt_bb_color_scheme_13 {
+      color: #252525;
+      background-color: #f5f5f5;
+    }
+
+    .bt_bb_column.bt_bb_color_scheme_13 {
+      color: #252525;
+      background-color: #f5f5f5;
+    }
+
+    .bt_bb_column .bt_bb_column_content.bt_bb_inner_color_scheme_13 {
+      color: #252525;
+      background-color: #f5f5f5;
+    }
+
+    .bt_bb_column_inner.bt_bb_color_scheme_13 {
+      color: #252525;
+      background-color: #f5f5f5;
+    }
+
+    .bt_bb_column_inner .bt_bb_column_inner_content.bt_bb_inner_color_scheme_13 {
+      color: #252525;
+      background-color: #f5f5f5;
+    }
+
+    .bt_bb_separator_v2.bt_bb_color_scheme_13 {
+      color: #252525;
+    }
+
+    div.bt_bb_color_scheme_13.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_before,
+    div.bt_bb_color_scheme_13.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_after {
+      border-color: #f5f5f5;
+    }
+
+    .bt_bb_color_scheme_13.bt_bb_headline .bt_bb_headline_subheadline {
+      color: #f5f5f5;
+    }
+
+    .bt_bb_button.bt_bb_color_scheme_13.bt_bb_style_outline a {
+      box-shadow: 0 0 0 2px #252525 inset;
+    }
+
+    .bt_bb_icon.bt_bb_color_scheme_13.bt_bb_style_outline .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 2px #252525 inset;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_13.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #252525;
+      border-color: #252525;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_13.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #252525;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_13 .bt_bb_service_content .bt_bb_service_content_title a {
+      color: #f5f5f5;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_13.bt_bb_style_outline .bt_bb_icon_holder {
+      box-shadow: 0 0 0 2px #252525 inset;
+    }
+  </style>
+  <style data-id="bt_bb_color_schemes">
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_14 .bt_bb_progress_bar_bg,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_14 .bt_bb_progress_bar_bg {
+      background: #fff;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_14 .bt_bb_progress_bar_inner,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_14 .bt_bb_progress_bar_inner {
+      border-color: #000;
+      color: #000;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_14 .bt_bb_progress_bar_bg {
+      background: #000;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_14 .bt_bb_progress_bar_inner {
+      background: #fff;
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_icon .bt_bb_icon_holder {
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_icon:hover a.bt_bb_icon_holder {
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+      background-color: transparent;
+      box-shadow: 0 0 0 1px #000 inset;
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {
+      background-color: #000;
+      box-shadow: 0 0 0 1em #000 inset;
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1em #fff inset;
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1px #fff inset;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_button.bt_bb_style_outline a {
+      box-shadow: 0 0 0 1px #000 inset;
+      color: #000;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_button.bt_bb_style_outline a:hover {
+      box-shadow: 0 0 0 2em #000 inset;
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_button.bt_bb_style_filled a {
+      box-shadow: 0 0 0 2em #fff inset;
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_button.bt_bb_style_filled a:hover {
+      box-shadow: 0 0 0 0px #fff inset;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_button.bt_bb_style_clean a,
+    .bt_bb_color_scheme_14.bt_bb_icon.bt_bb_style_borderless a {
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_button.bt_bb_style_clean a:hover,
+    .bt_bb_color_scheme_14.bt_bb_icon.bt_bb_style_borderless:hover a {
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #000 inset;
+      color: #000;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #000 inset;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #fff inset;
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #fff inset;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_headline {
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_headline .bt_bb_headline_superheadline {
+      color: #fff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_14.bt_bb_style_outline .bt_bb_tabs_header,
+    .bt_bb_tabs.bt_bb_color_scheme_14.bt_bb_style_filled .bt_bb_tabs_header {
+      border-color: #000;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_14.bt_bb_style_outline .bt_bb_tabs_header li,
+    .bt_bb_tabs.bt_bb_color_scheme_14.bt_bb_style_filled .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_14.bt_bb_style_filled .bt_bb_tabs_header li.on {
+      border-color: #000;
+      color: #000;
+      background-color: transparent;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_14.bt_bb_style_outline .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_14.bt_bb_style_outline .bt_bb_tabs_header li.on,
+    .bt_bb_tabs.bt_bb_color_scheme_14.bt_bb_style_filled .bt_bb_tabs_header li {
+      background-color: #000;
+      color: #fff;
+      border-color: #000;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_14.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #fff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_14.bt_bb_style_simple .bt_bb_tabs_header li.on {
+      color: #000;
+      border-color: #000;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_14 .bt_bb_accordion_item {
+      border-color: #000;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_14.bt_bb_style_outline .bt_bb_accordion_item_title {
+      border-color: #000;
+      color: #000;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_14.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_14.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #fff;
+      background-color: #000;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_14.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #fff;
+      background-color: #000;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_14.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_14.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #000;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_14.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #000;
+      border-color: #000;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_14.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,
+    .bt_bb_accordion.bt_bb_color_scheme_14.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #fff;
+      border-color: #fff;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_14 {
+      border-color: #fff;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_14 .bt_bb_price_list_title {
+      color: #000;
+      background-color: #fff;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_14 ul li {
+      border-color: #fff;
+    }
+
+    .bt_bb_section.bt_bb_color_scheme_14 {
+      color: #000;
+      background-color: #fff;
+    }
+
+    .bt_bb_row.bt_bb_color_scheme_14 {
+      color: #000;
+      background-color: #fff;
+    }
+
+    .bt_bb_column.bt_bb_color_scheme_14 {
+      color: #000;
+      background-color: #fff;
+    }
+
+    .bt_bb_column .bt_bb_column_content.bt_bb_inner_color_scheme_14 {
+      color: #000;
+      background-color: #fff;
+    }
+
+    .bt_bb_column_inner.bt_bb_color_scheme_14 {
+      color: #000;
+      background-color: #fff;
+    }
+
+    .bt_bb_column_inner .bt_bb_column_inner_content.bt_bb_inner_color_scheme_14 {
+      color: #000;
+      background-color: #fff;
+    }
+
+    .bt_bb_separator_v2.bt_bb_color_scheme_14 {
+      color: #000;
+    }
+
+    div.bt_bb_color_scheme_14.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_before,
+    div.bt_bb_color_scheme_14.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_after {
+      border-color: #fff;
+    }
+
+    .bt_bb_color_scheme_14.bt_bb_headline .bt_bb_headline_subheadline {
+      color: #fff;
+    }
+
+    .bt_bb_button.bt_bb_color_scheme_14.bt_bb_style_outline a {
+      box-shadow: 0 0 0 2px #000 inset;
+    }
+
+    .bt_bb_icon.bt_bb_color_scheme_14.bt_bb_style_outline .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 2px #000 inset;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_14.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #000;
+      border-color: #000;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_14.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #000;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_14 .bt_bb_service_content .bt_bb_service_content_title a {
+      color: #fff;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_14.bt_bb_style_outline .bt_bb_icon_holder {
+      box-shadow: 0 0 0 2px #000 inset;
+    }
+  </style>
+  <style data-id="bt_bb_color_schemes">
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_15 .bt_bb_progress_bar_bg,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_15 .bt_bb_progress_bar_bg {
+      background: #000;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_15 .bt_bb_progress_bar_inner,
+    .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_15 .bt_bb_progress_bar_inner {
+      border-color: #fff;
+      color: #fff;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_15 .bt_bb_progress_bar_bg {
+      background: #fff;
+    }
+
+    .bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_15 .bt_bb_progress_bar_inner {
+      background: #000;
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_icon .bt_bb_icon_holder {
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_icon:hover a.bt_bb_icon_holder {
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+      background-color: transparent;
+      box-shadow: 0 0 0 1px #fff inset;
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {
+      background-color: #fff;
+      box-shadow: 0 0 0 1em #fff inset;
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1em #000 inset;
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 1px #000 inset;
+      background-color: #fff;
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_button.bt_bb_style_outline a {
+      box-shadow: 0 0 0 1px #fff inset;
+      color: #fff;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_button.bt_bb_style_outline a:hover {
+      box-shadow: 0 0 0 2em #fff inset;
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_button.bt_bb_style_filled a {
+      box-shadow: 0 0 0 2em #000 inset;
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_button.bt_bb_style_filled a:hover {
+      box-shadow: 0 0 0 0px #000 inset;
+      background-color: #fff;
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_button.bt_bb_style_clean a,
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_borderless a {
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_button.bt_bb_style_clean a:hover,
+    .bt_bb_color_scheme_15.bt_bb_icon.bt_bb_style_borderless:hover a {
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #fff inset;
+      color: #fff;
+      background-color: transparent;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #fff inset;
+      background-color: #fff;
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1em #000 inset;
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+      box-shadow: 0 0 0 1px #000 inset;
+      background-color: #fff;
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+      color: #000;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_headline {
+      color: #fff;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_headline .bt_bb_headline_superheadline {
+      color: #000;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_tabs_header,
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_tabs_header {
+      border-color: #fff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_tabs_header li,
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_tabs_header li.on {
+      border-color: #fff;
+      color: #fff;
+      background-color: transparent;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_tabs_header li:hover,
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_tabs_header li.on,
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_tabs_header li {
+      background-color: #fff;
+      color: #000;
+      border-color: #fff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #000;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_simple .bt_bb_tabs_header li.on {
+      color: #fff;
+      border-color: #fff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_15 .bt_bb_accordion_item {
+      border-color: #fff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_accordion_item_title {
+      border-color: #fff;
+      color: #fff;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #000;
+      background-color: #fff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #000;
+      background-color: #fff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+      color: #fff;
+      background-color: transparent;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {
+      color: #fff;
+      border-color: #fff;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #000;
+      border-color: #000;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_15 {
+      border-color: #000;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_15 .bt_bb_price_list_title {
+      color: #fff;
+      background-color: #000;
+    }
+
+    .bt_bb_price_list.bt_bb_color_scheme_15 ul li {
+      border-color: #000;
+    }
+
+    .bt_bb_section.bt_bb_color_scheme_15 {
+      color: #fff;
+      background-color: #000;
+    }
+
+    .bt_bb_row.bt_bb_color_scheme_15 {
+      color: #fff;
+      background-color: #000;
+    }
+
+    .bt_bb_column.bt_bb_color_scheme_15 {
+      color: #fff;
+      background-color: #000;
+    }
+
+    .bt_bb_column .bt_bb_column_content.bt_bb_inner_color_scheme_15 {
+      color: #fff;
+      background-color: #000;
+    }
+
+    .bt_bb_column_inner.bt_bb_color_scheme_15 {
+      color: #fff;
+      background-color: #000;
+    }
+
+    .bt_bb_column_inner .bt_bb_column_inner_content.bt_bb_inner_color_scheme_15 {
+      color: #fff;
+      background-color: #000;
+    }
+
+    .bt_bb_separator_v2.bt_bb_color_scheme_15 {
+      color: #fff;
+    }
+
+    div.bt_bb_color_scheme_15.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_before,
+    div.bt_bb_color_scheme_15.bt_bb_separator_v2 .bt_bb_separator_v2_inner .bt_bb_separator_v2_inner_after {
+      border-color: #000;
+    }
+
+    .bt_bb_color_scheme_15.bt_bb_headline .bt_bb_headline_subheadline {
+      color: #000;
+    }
+
+    .bt_bb_button.bt_bb_color_scheme_15.bt_bb_style_outline a {
+      box-shadow: 0 0 0 2px #fff inset;
+    }
+
+    .bt_bb_icon.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_icon_holder:before {
+      box-shadow: 0 0 0 2px #fff inset;
+    }
+
+    .bt_bb_accordion.bt_bb_color_scheme_15.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+      color: #fff;
+      border-color: #fff;
+    }
+
+    .bt_bb_tabs.bt_bb_color_scheme_15.bt_bb_style_simple .bt_bb_tabs_header li {
+      color: #fff;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_15 .bt_bb_service_content .bt_bb_service_content_title a {
+      color: #000;
+    }
+
+    .bt_bb_service.bt_bb_color_scheme_15.bt_bb_style_outline .bt_bb_icon_holder {
+      box-shadow: 0 0 0 2px #fff inset;
+    }
+  </style>
+  <script>window.bt_bb_custom_elements = false;</script>
+  <style type="text/css">
     img.wp-smiley,
     img.emoji {
       display: inline !important;
@@ -41,10 +4243,18 @@
     }
   </style>
   <link rel='stylesheet' id='wp-block-library-css'
-    href='http://qesco.themezinho.net/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' media='all' />
+    href='https://wheelco.bold-themes.com/main-demo/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1'
+    type='text/css' media='all' />
+  <link rel='stylesheet' id='wc-blocks-vendors-style-css'
+    href='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=7.4.3'
+    type='text/css' media='all' />
+  <link rel='stylesheet' id='wc-blocks-style-css'
+    href='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=7.4.3'
+    type='text/css' media='all' />
   <link rel='stylesheet' id='classic-theme-styles-css'
-    href='http://qesco.themezinho.net/wp-includes/css/classic-themes.min.css?ver=1' media='all' />
-  <style id='global-styles-inline-css'>
+    href='https://wheelco.bold-themes.com/main-demo/wp-includes/css/classic-themes.min.css?ver=1' type='text/css'
+    media='all' />
+  <style id='global-styles-inline-css' type='text/css'>
     body {
       --wp--preset--color--black: #000000;
       --wp--preset--color--cyan-bluish-gray: #abb8c3;
@@ -377,445 +4587,468 @@
       line-height: 1.6;
     }
   </style>
+  <link rel='stylesheet' id='bt_bb_content_elements-css'
+    href='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/bold-page-builder/css/front_end/content_elements.crush.css?ver=4.2.5'
+    type='text/css' media='all' />
+  <link rel='stylesheet' id='bt_bb_slick-css'
+    href='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/bold-page-builder/slick/slick.css?ver=4.2.5'
+    type='text/css' media='all' />
   <link rel='stylesheet' id='contact-form-7-css'
-    href='http://qesco.themezinho.net/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.5.1'
-    media='all' />
-  <link rel='stylesheet' id='ppress-frontend-css'
-    href='http://qesco.themezinho.net/wp-content/plugins/wp-user-avatar/assets/css/frontend.min.css?ver=4.8.0'
-    media='all' />
-  <link rel='stylesheet' id='ppress-flatpickr-css'
-    href='http://qesco.themezinho.net/wp-content/plugins/wp-user-avatar/assets/flatpickr/flatpickr.min.css?ver=4.8.0'
-    media='all' />
-  <link rel='stylesheet' id='ppress-select2-css'
-    href='http://qesco.themezinho.net/wp-content/plugins/wp-user-avatar/assets/select2/select2.min.css?ver=6.1.1'
-    media='all' />
-  <link rel='stylesheet' id='wpcargo-custom-bootstrap-styles-css'
-    href='http://qesco.themezinho.net/wp-content/plugins/wpcargo/assets/css/main.min.css?ver=6.10.3' media='all' />
-  <link rel='stylesheet' id='wpcargo-fontawesome-styles-css'
-    href='http://qesco.themezinho.net/wp-content/plugins/wpcargo/assets/css/fontawesome.min.css?ver=6.10.3'
-    media='all' />
-  <link rel='stylesheet' id='wpcargo-styles-css'
-    href='http://qesco.themezinho.net/wp-content/plugins/wpcargo/assets/css/wpcargo-style.css?ver=6.10.3' media='all' />
-  <link rel='stylesheet' id='wpcargo-datetimepicker-css'
-    href='http://qesco.themezinho.net/wp-content/plugins/wpcargo/admin/assets/css/jquery.datetimepicker.min.css?ver=6.10.3'
-    media='all' />
-  <link rel='stylesheet' id='qesco_google_fonts-css'
-    href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C600%2C800&#038;ver=6.1.1' media='all' />
-  <link rel='stylesheet' id='animate-css'
-    href='http://qesco.themezinho.net/wp-content/themes/qesco/css/animate.css?ver=6.1.1' media='all' />
-  <link rel='stylesheet' id='lineicons-css'
-    href='http://qesco.themezinho.net/wp-content/themes/qesco/css/lineicons.css?ver=6.1.1' media='all' />
-  <link rel='stylesheet' id='fancybox-css'
-    href='http://qesco.themezinho.net/wp-content/themes/qesco/css/fancybox.min.css?ver=6.1.1' media='all' />
-  <link rel='stylesheet' id='swiper-css'
-    href='http://qesco.themezinho.net/wp-content/themes/qesco/css/swiper.min.css?ver=6.1.1' media='all' />
-  <link rel='stylesheet' id='odometer-css'
-    href='http://qesco.themezinho.net/wp-content/themes/qesco/css/odometer.min.css?ver=6.1.1' media='all' />
-  <link rel='stylesheet' id='bootstrap-css'
-    href='http://qesco.themezinho.net/wp-content/themes/qesco/css/bootstrap.min.css?ver=6.1.1' media='all' />
-  <link rel='stylesheet' id='qesco-main-style-css'
-    href='http://qesco.themezinho.net/wp-content/themes/qesco/css/style.css?ver=6.1.1' media='all' />
-  <link rel='stylesheet' id='qesco-stylesheet-css'
-    href='http://qesco.themezinho.net/wp-content/themes/qesco/style.css?ver=6.1.1' media='all' />
-  <link rel='stylesheet' id='js_composer_front-css'
-    href='http://qesco.themezinho.net/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.10.0'
-    media='all' />
-  <script src='http://qesco.themezinho.net/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
-  <script src='http://qesco.themezinho.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2'
+    href='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6.4'
+    type='text/css' media='all' />
+  <style id='contact-form-7-inline-css' type='text/css'>
+    .wpcf7 .wpcf7-recaptcha iframe {
+      margin-bottom: 0;
+    }
+
+    .wpcf7 .wpcf7-recaptcha[data-align="center"]>div {
+      margin: 0 auto;
+    }
+
+    .wpcf7 .wpcf7-recaptcha[data-align="right"]>div {
+      margin: 0 0 0 auto;
+    }
+  </style>
+  <style id='woocommerce-inline-inline-css' type='text/css'>
+    .woocommerce form .form-row .required {
+      visibility: visible;
+    }
+  </style>
+  <link rel='stylesheet' id='wp-job-manager-job-listings-css'
+    href='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/wp-job-manager/assets/dist/css/job-listings.css?ver=d866e43503c5e047c6b0be0a9557cf8e'
+    type='text/css' media='all' />
+  <link rel='stylesheet' id='wheelco-style-css'
+    href='https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/style.css?ver=6.1.1' type='text/css'
+    media='screen' />
+  <style id='wheelco-style-inline-css' type='text/css'>
+    @font-face {
+      font-family: "Business";
+      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Business/Business.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Business/Business.ttf") format("truetype");
+    }
+
+    *[data-ico-business]:before {
+      font-family: Business;
+      content: attr(data-ico-business);
+    }
+
+    @font-face {
+      font-family: "Cargo";
+      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Cargo/Cargo.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Cargo/Cargo.ttf") format("truetype");
+    }
+
+    *[data-ico-cargo]:before {
+      font-family: Cargo;
+      content: attr(data-ico-cargo);
+    }
+
+    @font-face {
+      font-family: "Construction";
+      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Construction/Construction.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Construction/Construction.ttf") format("truetype");
+    }
+
+    *[data-ico-construction]:before {
+      font-family: Construction;
+      content: attr(data-ico-construction);
+    }
+
+    @font-face {
+      font-family: "Delivery";
+      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Delivery/Delivery.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Delivery/Delivery.ttf") format("truetype");
+    }
+
+    *[data-ico-delivery]:before {
+      font-family: Delivery;
+      content: attr(data-ico-delivery);
+    }
+
+    @font-face {
+      font-family: "Design";
+      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Design/Design.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Design/Design.ttf") format("truetype");
+    }
+
+    *[data-ico-design]:before {
+      font-family: Design;
+      content: attr(data-ico-design);
+    }
+
+    @font-face {
+      font-family: "Development";
+      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Development/Development.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Development/Development.ttf") format("truetype");
+    }
+
+    *[data-ico-development]:before {
+      font-family: Development;
+      content: attr(data-ico-development);
+    }
+
+    @font-face {
+      font-family: "Essential";
+      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Essential/Essential.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Essential/Essential.ttf") format("truetype");
+    }
+
+    *[data-ico-essential]:before {
+      font-family: Essential;
+      content: attr(data-ico-essential);
+    }
+
+    @font-face {
+      font-family: "FontAwesome";
+      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/FontAwesome/FontAwesome.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/FontAwesome/FontAwesome.ttf") format("truetype");
+    }
+
+    *[data-ico-fontawesome]:before {
+      font-family: FontAwesome;
+      content: attr(data-ico-fontawesome);
+    }
+
+    @font-face {
+      font-family: "FontAwesome5Brands";
+      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/FontAwesome5Brands/FontAwesome5Brands.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/FontAwesome5Brands/FontAwesome5Brands.ttf") format("truetype");
+    }
+
+    *[data-ico-fontawesome5brands]:before {
+      font-family: FontAwesome5Brands;
+      content: attr(data-ico-fontawesome5brands);
+    }
+
+    @font-face {
+      font-family: "FontAwesome5Regular";
+      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/FontAwesome5Regular/FontAwesome5Regular.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/FontAwesome5Regular/FontAwesome5Regular.ttf") format("truetype");
+    }
+
+    *[data-ico-fontawesome5regular]:before {
+      font-family: FontAwesome5Regular;
+      content: attr(data-ico-fontawesome5regular);
+    }
+
+    @font-face {
+      font-family: "FontAwesome5Solid";
+      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/FontAwesome5Solid/FontAwesome5Solid.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/FontAwesome5Solid/FontAwesome5Solid.ttf") format("truetype");
+    }
+
+    *[data-ico-fontawesome5solid]:before {
+      font-family: FontAwesome5Solid;
+      content: attr(data-ico-fontawesome5solid);
+    }
+
+    @font-face {
+      font-family: "Global";
+      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Global/Global.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Global/Global.ttf") format("truetype");
+    }
+
+    *[data-ico-global]:before {
+      font-family: Global;
+      content: attr(data-ico-global);
+    }
+
+    @font-face {
+      font-family: "Icon7Stroke";
+      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Icon7Stroke/Icon7Stroke.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Icon7Stroke/Icon7Stroke.ttf") format("truetype");
+    }
+
+    *[data-ico-icon7stroke]:before {
+      font-family: Icon7Stroke;
+      content: attr(data-ico-icon7stroke);
+    }
+
+    @font-face {
+      font-family: "Logistic";
+      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Logistic/Logistic.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Logistic/Logistic.ttf") format("truetype");
+    }
+
+    *[data-ico-logistic]:before {
+      font-family: Logistic;
+      content: attr(data-ico-logistic);
+    }
+
+    @font-face {
+      font-family: "Productivity";
+      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Productivity/Productivity.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Productivity/Productivity.ttf") format("truetype");
+    }
+
+    *[data-ico-productivity]:before {
+      font-family: Productivity;
+      content: attr(data-ico-productivity);
+    }
+
+    @font-face {
+      font-family: "Science";
+      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Science/Science.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Science/Science.ttf") format("truetype");
+    }
+
+    *[data-ico-science]:before {
+      font-family: Science;
+      content: attr(data-ico-science);
+    }
+
+    @font-face {
+      font-family: "Shipping";
+      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Shipping/Shipping.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Shipping/Shipping.ttf") format("truetype");
+    }
+
+    *[data-ico-shipping]:before {
+      font-family: Shipping;
+      content: attr(data-ico-shipping);
+    }
+
+    @font-face {
+      font-family: "Transportation";
+      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Transportation/Transportation.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Transportation/Transportation.ttf") format("truetype");
+    }
+
+    *[data-ico-transportation]:before {
+      font-family: Transportation;
+      content: attr(data-ico-transportation);
+    }
+
+    @font-face {
+      font-family: "Trucking";
+      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Trucking/Trucking.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Trucking/Trucking.ttf") format("truetype");
+    }
+
+    *[data-ico-trucking]:before {
+      font-family: Trucking;
+      content: attr(data-ico-trucking);
+    }
+  </style>
+  <link rel='stylesheet' id='wheelco-print-css'
+    href='https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/print.css?ver=6.1.1' type='text/css'
+    media='print' />
+  <link rel='stylesheet' id='wheelco-fonts-css'
+    href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CRoboto%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CRoboto%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CRoboto%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CRoboto%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic&#038;subset=latin%2Clatin-ext&#038;ver=1.0.0'
+    type='text/css' media='all' />
+  <link rel='stylesheet' id='boldthemes-framework-css'
+    href='https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/framework/css/style.css?ver=6.1.1'
+    type='text/css' media='all' />
+  <script type='text/javascript'
+    src='https://wheelco.bold-themes.com/main-demo/wp-includes/js/jquery/jquery.min.js?ver=3.6.1'
+    id='jquery-core-js'></script>
+  <script type='text/javascript'
+    src='https://wheelco.bold-themes.com/main-demo/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2'
     id='jquery-migrate-js'></script>
-  <script
-    src='http://qesco.themezinho.net/wp-content/plugins/wp-user-avatar/assets/flatpickr/flatpickr.min.js?ver=4.8.0'
-    id='ppress-flatpickr-js'></script>
-  <script src='http://qesco.themezinho.net/wp-content/plugins/wp-user-avatar/assets/select2/select2.min.js?ver=4.8.0'
-    id='ppress-select2-js'></script>
-  <script id='wpcargo-js-js-extra'>
-    var wpcargoAJAXHandler = { "ajax_url": "http:\/\/qesco.themezinho.net\/wp-admin\/admin-ajax.php", "pageURL": "http:\/\/qesco.themezinho.net\/", "date_format": "Y-m-d", "time_format": "H:i a", "datetime_format": "Y-m-d H:i a" };
+  <script type='text/javascript'
+    src='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/bold-page-builder/slick/slick.min.js?ver=4.2.5'
+    id='bt_bb_slick-js'></script>
+  <script type='text/javascript'
+    src='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/bold-page-builder/content_elements_misc/js/jquery.magnific-popup.min.js?ver=4.2.5'
+    id='bt_bb_magnific-js'></script>
+  <script type='text/javascript'
+    src='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/bold-page-builder/content_elements_misc/js/content_elements.js?ver=4.2.5'
+    id='bt_bb-js'></script>
+  <script type='text/javascript'
+    src='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/bt_cost_calculator/jquery.dd.js?ver=6.1.1'
+    id='bt_cc_dd-js'></script>
+  <script type='text/javascript'
+    src='https://wheelco.bold-themes.com/main-demo/wp-content/plugins/bt_cost_calculator/cc.main.js?ver=6.1.1'
+    id='bt_cc_main-js'></script>
+  <script type='text/javascript' id='bt_cc_main-js-after'>
+    window.bt_cc_translate = []; window.bt_cc_translate['prev'] = 'Prev'; window.bt_cc_translate['next'] = 'Next'; window.bt_cc_translate['su'] = 'Su'; window.bt_cc_translate['mo'] = 'Mo'; window.bt_cc_translate['tu'] = 'Tu'; window.bt_cc_translate['we'] = 'We'; window.bt_cc_translate['th'] = 'Th'; window.bt_cc_translate['fr'] = 'Fr'; window.bt_cc_translate['sa'] = 'Sa'; window.bt_cc_translate['january'] = 'January'; window.bt_cc_translate['february'] = 'February'; window.bt_cc_translate['march'] = 'March'; window.bt_cc_translate['april'] = 'April'; window.bt_cc_translate['may'] = 'May'; window.bt_cc_translate['june'] = 'June'; window.bt_cc_translate['july'] = 'July'; window.bt_cc_translate['august'] = 'August'; window.bt_cc_translate['september'] = 'September'; window.bt_cc_translate['october'] = 'October'; window.bt_cc_translate['november'] = 'November'; window.bt_cc_translate['december'] = 'December';
   </script>
-  <script src='http://qesco.themezinho.net/wp-content/plugins/wpcargo/assets/js/wpcargo.js?ver=6.10.3'
-    id='wpcargo-js-js'></script>
-  <script
-    src='http://qesco.themezinho.net/wp-content/plugins/wpcargo/admin/assets/js/jquery.datetimepicker.full.min.js?ver=6.10.3'
-    id='wpcargo-datetimepicker-js'></script>
-  <script id='comments-js-extra'>
-    var comment_data = { "name": "Name is required", "email": "Email is required", "comment": "Comment is required" };
-  </script>
-  <script src='http://qesco.themezinho.net/wp-content/themes/qesco/js/comments.js?ver=6.1.1' id='comments-js'></script>
-  <link rel="https://api.w.org/" href="http://qesco.themezinho.net/wp-json/" />
-  <link rel="alternate" type="application/json" href="http://qesco.themezinho.net/wp-json/wp/v2/pages/10" />
-  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://qesco.themezinho.net/xmlrpc.php?rsd" />
+  <link rel="https://api.w.org/" href="https://wheelco.bold-themes.com/main-demo/wp-json/" />
+  <link rel="alternate" type="application/json"
+    href="https://wheelco.bold-themes.com/main-demo/wp-json/wp/v2/pages/1067" />
+  <link rel="EditURI" type="application/rsd+xml" title="RSD"
+    href="https://wheelco.bold-themes.com/main-demo/xmlrpc.php?rsd" />
   <link rel="wlwmanifest" type="application/wlwmanifest+xml"
-    href="http://qesco.themezinho.net/wp-includes/wlwmanifest.xml" />
+    href="https://wheelco.bold-themes.com/main-demo/wp-includes/wlwmanifest.xml" />
   <meta name="generator" content="WordPress 6.1.1" />
-  <link rel="canonical" href="http://qesco.themezinho.net/" />
-  <link rel='shortlink' href='http://qesco.themezinho.net/' />
+  <meta name="generator" content="WooCommerce 6.5.1" />
+  <link rel="canonical" href="https://wheelco.bold-themes.com/main-demo/" />
+  <link rel='shortlink' href='https://wheelco.bold-themes.com/main-demo/' />
   <link rel="alternate" type="application/json+oembed"
-    href="http://qesco.themezinho.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fqesco.themezinho.net%2F" />
+    href="https://wheelco.bold-themes.com/main-demo/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwheelco.bold-themes.com%2Fmain-demo%2F" />
   <link rel="alternate" type="text/xml+oembed"
-    href="http://qesco.themezinho.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fqesco.themezinho.net%2F&#038;format=xml" />
-  <style type="text/css">
-    :root {
-      --wpcargo: #fed300;
-    }
-  </style>
-  <style>
-    .recentcomments a {
-      display: inline !important;
-      padding: 0 !important;
-      margin: 0 !important;
-    }
-  </style>
-  <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
-  <link rel="icon"
-    href="http://qesco.themezinho.net/wp-content/uploads/2020/10/cropped-apple-touch-icon-144-precomposed-32x32.png"
-    sizes="32x32" />
-  <link rel="icon"
-    href="http://qesco.themezinho.net/wp-content/uploads/2020/10/cropped-apple-touch-icon-144-precomposed-192x192.png"
-    sizes="192x192" />
-  <link rel="apple-touch-icon"
-    href="http://qesco.themezinho.net/wp-content/uploads/2020/10/cropped-apple-touch-icon-144-precomposed-180x180.png" />
-  <meta name="msapplication-TileImage"
-    content="http://qesco.themezinho.net/wp-content/uploads/2020/10/cropped-apple-touch-icon-144-precomposed-270x270.png" />
-  <style type="text/css" data-type="vc_shortcodes-custom-css">
-    .vc_custom_1604074119281 {
-      margin-right: 0px !important;
-      margin-left: 0px !important;
-    }
+    href="https://wheelco.bold-themes.com/main-demo/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwheelco.bold-themes.com%2Fmain-demo%2F&#038;format=xml" />
 
-    .vc_custom_1604073995538 {
-      margin-right: 0px !important;
-      margin-left: 0px !important;
-    }
-
-    .vc_custom_1604074204363 {
-      padding-bottom: 100px !important;
-    }
-
-    .vc_custom_1604231701727 {
-      margin-right: 0px !important;
-      margin-left: 0px !important;
-    }
-
-    .vc_custom_1604247082648 {
-      margin-right: 0px !important;
-      margin-left: 0px !important;
-    }
-
-    .vc_custom_1604399427350 {
-      margin-right: 0px !important;
-      margin-left: 0px !important;
-      padding-top: 100px !important;
-    }
-
-    .vc_custom_1604074124319 {
-      padding-right: 0px !important;
-      padding-left: 0px !important;
-    }
-
-    .vc_custom_1604073990753 {
-      padding-right: 0px !important;
-      padding-left: 0px !important;
-    }
-
-    .vc_custom_1604231712082 {
-      padding-right: 0px !important;
-      padding-left: 0px !important;
-    }
-
-    .vc_custom_1604231717766 {
-      padding-right: 0px !important;
-      padding-left: 0px !important;
-    }
-
-    .vc_custom_1604126379593 {
-      padding-right: 0px !important;
-      padding-left: 0px !important;
-    }
-
-    .vc_custom_1604126352374 {
-      padding-right: 0px !important;
-      padding-left: 0px !important;
-    }
-  </style><noscript>
+  <!-- Google Tag Manager for WordPress by gtm4wp.com -->
+  <!-- GTM Container placement set to automatic -->
+  <script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+    var dataLayer_content = { "pagePostType": "frontpage", "pagePostType2": "single-page", "pagePostAuthor": "Bold" };
+    dataLayer.push(dataLayer_content);
+  </script>
+  <script data-cfasync="false">
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          '//www.googletagmanager.com/gtm.' + 'js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MHZKTQL');
+  </script>
+  <!-- End Google Tag Manager -->
+  <!-- End Google Tag Manager for WordPress by gtm4wp.com --> <noscript>
     <style>
-      .wpb_animate_when_almost_visible {
-        opacity: 1;
+      .woocommerce-product-gallery {
+        opacity: 1 !important;
       }
     </style>
   </noscript>
+
+  <!-- BEGIN recaptcha, injected by plugin wp-recaptcha-integration  -->
+
+  <!-- END recaptcha -->
+  <link rel="icon"
+    href="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/08/cropped-favicon-160x160.png"
+    sizes="32x32" />
+  <link rel="icon"
+    href="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/08/cropped-favicon-300x300.png"
+    sizes="192x192" />
+  <link rel="apple-touch-icon"
+    href="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/08/cropped-favicon-180x180.png" />
+  <meta name="msapplication-TileImage"
+    content="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/08/cropped-favicon-300x300.png" />
+
 </head>
 
 <body
-  class="home page-template page-template-page-builder page-template-page-builder-php page page-id-10 wpb-js-composer js-comp-ver-6.10.0 vc_responsive">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-    <defs>
-      <filter id="wp-duotone-dark-grayscale">
-        <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-          values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-        <feComponentTransfer color-interpolation-filters="sRGB">
-          <feFuncR type="table" tableValues="0 0.49803921568627" />
-          <feFuncG type="table" tableValues="0 0.49803921568627" />
-          <feFuncB type="table" tableValues="0 0.49803921568627" />
-          <feFuncA type="table" tableValues="1 1" />
-        </feComponentTransfer>
-        <feComposite in2="SourceGraphic" operator="in" />
-      </filter>
-    </defs>
-  </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-    <defs>
-      <filter id="wp-duotone-grayscale">
-        <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-          values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-        <feComponentTransfer color-interpolation-filters="sRGB">
-          <feFuncR type="table" tableValues="0 1" />
-          <feFuncG type="table" tableValues="0 1" />
-          <feFuncB type="table" tableValues="0 1" />
-          <feFuncA type="table" tableValues="1 1" />
-        </feComponentTransfer>
-        <feComposite in2="SourceGraphic" operator="in" />
-      </filter>
-    </defs>
-  </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-    <defs>
-      <filter id="wp-duotone-purple-yellow">
-        <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-          values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-        <feComponentTransfer color-interpolation-filters="sRGB">
-          <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
-          <feFuncG type="table" tableValues="0 1" />
-          <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
-          <feFuncA type="table" tableValues="1 1" />
-        </feComponentTransfer>
-        <feComposite in2="SourceGraphic" operator="in" />
-      </filter>
-    </defs>
-  </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-    <defs>
-      <filter id="wp-duotone-blue-red">
-        <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-          values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-        <feComponentTransfer color-interpolation-filters="sRGB">
-          <feFuncR type="table" tableValues="0 1" />
-          <feFuncG type="table" tableValues="0 0.27843137254902" />
-          <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
-          <feFuncA type="table" tableValues="1 1" />
-        </feComponentTransfer>
-        <feComposite in2="SourceGraphic" operator="in" />
-      </filter>
-    </defs>
-  </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-    <defs>
-      <filter id="wp-duotone-midnight">
-        <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-          values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-        <feComponentTransfer color-interpolation-filters="sRGB">
-          <feFuncR type="table" tableValues="0 0" />
-          <feFuncG type="table" tableValues="0 0.64705882352941" />
-          <feFuncB type="table" tableValues="0 1" />
-          <feFuncA type="table" tableValues="1 1" />
-        </feComponentTransfer>
-        <feComposite in2="SourceGraphic" operator="in" />
-      </filter>
-    </defs>
-  </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-    <defs>
-      <filter id="wp-duotone-magenta-yellow">
-        <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-          values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-        <feComponentTransfer color-interpolation-filters="sRGB">
-          <feFuncR type="table" tableValues="0.78039215686275 1" />
-          <feFuncG type="table" tableValues="0 0.94901960784314" />
-          <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
-          <feFuncA type="table" tableValues="1 1" />
-        </feComponentTransfer>
-        <feComposite in2="SourceGraphic" operator="in" />
-      </filter>
-    </defs>
-  </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-    <defs>
-      <filter id="wp-duotone-purple-green">
-        <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-          values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-        <feComponentTransfer color-interpolation-filters="sRGB">
-          <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
-          <feFuncG type="table" tableValues="0 1" />
-          <feFuncB type="table" tableValues="0.44705882352941 0.4" />
-          <feFuncA type="table" tableValues="1 1" />
-        </feComponentTransfer>
-        <feComposite in2="SourceGraphic" operator="in" />
-      </filter>
-    </defs>
-  </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-    <defs>
-      <filter id="wp-duotone-blue-orange">
-        <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-          values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-        <feComponentTransfer color-interpolation-filters="sRGB">
-          <feFuncR type="table" tableValues="0.098039215686275 1" />
-          <feFuncG type="table" tableValues="0 0.66274509803922" />
-          <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
-          <feFuncA type="table" tableValues="1 1" />
-        </feComponentTransfer>
-        <feComposite in2="SourceGraphic" operator="in" />
-      </filter>
-    </defs>
-  </svg>
-  <!-- Translator -->
+  class="home page-template-default page page-id-1067 page-parent theme-wheelco bt_bb_plugin_active bt_bb_fe_preview_toggle woocommerce-no-js btHasAltLogo btMenuRightEnabled btMenuBelowLogo btStickyEnabled btHideHeadline btLightSkin btBelowMenu noBodyPreloader btHardRoundedButtons btTransparentLightHeader btNoSidebar wheelco">
 
+  <div class="btPageWrap" id="top">
 
-<!-- END OF TRANSLATOR -->
-
-  <div class="preloader"> <img src="http://qesco.themezinho.net/wp-content/themes/qesco/images/preloader.png"
-      alt="Image"> </div>
-  <!-- end preloader -->
-  <div class="page-transition"></div>
-  <!-- end page-transition -->
-
-
-  <aside class="side-widget">
-    <div class="inner">
-      <div class="logo"><a href="http://qesco.themezinho.net/"><img
-            src="{% static 'logo.png' %}"
-            srcset="{% static 'logo.png' %}"
-            alt="Qesco | Logistic Shipping Company WordPress Theme"></a></div>
-      <div class="hide-mobile">
-        <div id="custom_html-4" class="widget_text widget widget_custom_html">
-          <div class="textwidget custom-html-widget">
-            <p>Take the complexity out of customs Freight Solutions with customs brokerage services</p>
-            <figure class="gallery"><a href="http://qesco.themezinho.net/wp-content/uploads/2020/10/news04.jpg"
-                data-fancybox=""><img src="http://qesco.themezinho.net/wp-content/uploads/2020/10/news04.jpg"
-                  alt="Image"></a><a href="http://qesco.themezinho.net/wp-content/uploads/2020/10/news02.jpg"
-                data-fancybox=""><img src="http://qesco.themezinho.net/wp-content/uploads/2020/10/news02.jpg"
-                  alt="Image"></a></figure>
-            <h6 class="widget-title">CONTACT INFO</h6>
-            <address class="address">
-              <p>{{ phone_number }}<br>
-                <a href="#">{{ email }}</a>
-              </p>
-            </address>
-            <h6 class="widget-title">FOLLOW US</h6>
-            <ul class="social-media">
-              <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-              <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
-              <li><a href="#"><i class="lni lni-instagram"></i></a></li>
-              <li><a href="#"><i class="lni lni-youtube"></i></a></li>
-              <li><a href="#"><i class="lni lni-pinterest"></i></a></li>
-            </ul>
-          </div>
-        </div>
+    <div class="btVerticalHeaderTop">
+      <div class="btVerticalMenuTrigger">&nbsp;<div class="bt_bb_icon" data-bt-override-class="{}"><a href="#"
+            target="_self" data-ico-fa="&#xf0c9;" class="bt_bb_icon_holder"></a></div>
       </div>
-      <!-- end hide-mobile -->
-      <div class="show-mobile">
-        <div class="custom-menu">
-          <ul>
-            <li> <a href="#">En</a> </li>
-            <li> <a href="#">Ru</a> </li>
-          </ul>
-        </div>
-        <div class="site-menu">
-          <div class="menu-main-menu-container">
-            <ul id="menu-main-menu" class="menu-horizontal">
-              <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-28"
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28 nav-item"><a
-                  title="Logistics" href="http://qesco.themezinho.net/logistics/" class="nav-link">Logistics</a><i></i>
-              </li>
-              <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-27"
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27 nav-item"><a
-                  title="Services" href="http://qesco.themezinho.net/services/" class="nav-link">Services</a><i></i>
-              </li>
-             
-              <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-29"
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29 nav-item"><a
-                  title="Contact" href="{% url 'contact' %}" class="nav-link">Contact</a><i></i></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- end show-mobile -->
-      <small>© 2022 Qesco | Logistic Shipping Company</small>
+
+      <div class="btLogoArea">
+        <div class="logo">
+          <span>
+            <a href="https://wheelco.bold-themes.com/main-demo/"><img class="btMainLogo" data-hw="1.85"
+                src="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/08/logo-yellow-white.png"
+                alt="Main Demo"><img class="btAltLogo"
+                src="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/logo-black.png"
+                alt="Main Demo"></a> </span>
+        </div><!-- /logo -->
+      </div><!-- /btLogoArea -->
     </div>
-    <!-- end inner -->
-  </aside>
-
-
-  <div class="topbar">
-    <div class="container">
-
-      <div class="phone"><span>Call Us Now:</span> <a href="#">{{ phone_number }}</a></div>
-
-
-      <div class="email">Email: <a href="#">{{ email }}</a></div>
-
-
-      <div class="social-media">
-        <span>Follow us</span>
-        <ul>
-          <li> <a href="#"><i class="lni lni-facebook-filled"></i> <span>Facebook</span></a> </li>
-          <li> <a href="#"><i class="lni lni-twitter-original"></i> <span>Twitter</span></a> </li>
-          <li> <a href="#"><i class="lni lni-linkedin-original"></i> <span>Linkedin</span></a> </li>
-        </ul>
-        <!-- end social-media -->
-
-
-      </div>
-
-
-    </div>
-    <!-- end container -->
-  </div>
-
-
-
-  <nav class="navbar">
-    <div class="container">
-      <div class="inner">
-        <div class="logo"><a href="http://qesco.themezinho.net/"><img
-              src="{% static 'logo.png' %}"
-              srcset="{% static 'logo.png' %}"
-              alt="Qesco | Logistic Shipping Company WordPress Theme"></a></div>
-       
-        <div class="site-menu">
-          <div class="menu-main-menu-container">
-            <ul id="menu-main-menu-1" class="menu-horizontal">
-              <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28 nav-item"><a
-                  title="Logistics" href="/" class="nav-link">Logistics</a><i></i>
-              </li>
-             
-              
-              <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17 nav-item"><a title="About"
-                  href="{% url 'about' %}" class="nav-link">About</a><i></i></li>
-
-
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17 nav-item"><a title="Services"
-                  href="{% url 'services' %}" class="nav-link">Services</a><i></i></li>
-
-
-
-              <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29 nav-item"><a
-                  title="Contact" href="{% url 'contact' %}" class="nav-link">Contact</a><i></i></li>
-            </ul>
-          </div>
-        </div>
-
-
-
-
-
-
-        <div class="hamburger-menu"> <span></span> <span></span> <span></span> </div>
-
-      </div>
-
-    </div>
-  </nav>
+    <header class="mainHeader btClear gutter ">
+      <div class="mainHeaderInner">
+        <div class="btLogoArea menuHolder btClear">
+          <div class="port">
+            <div class="btHorizontalMenuTrigger">&nbsp;<div class="bt_bb_icon" data-bt-override-class="{}"><a href="#"
+                  target="_self" data-ico-fa="&#xf0c9;" class="bt_bb_icon_holder"></a></div>
+            </div>
+            <div class="logo">
+              <span>
+                <a href="https://wheelco.bold-themes.com/main-demo/"><img class="btMainLogo" data-hw="1.85"
+                    src="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/08/logo-yellow-white.png"
+                    alt="Main Demo"><img class="btAltLogo"
+                    src="https://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/logo-black.png"
+                    alt="Main Demo"></a> </span>
+            </div><!-- /logo -->
+            <div class="topBarInLogoArea">
+              <div class="topBarInLogoAreaCell">
+                <a href="https://wheelco.bold-themes.com/main-demo/about-us/contact/" target="_self"
+                  class="btIconWidget  btAccentIconWidget btWidgetWithText">
+                  <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf095;" class="bt_bb_icon_holder"></span>
+                  </div>
+                  <div class="btIconWidgetContent"><span class="btIconWidgetTitle">Call Centar</span><span
+                      class="btIconWidgetText">1-800-700-600</span></div>
+                </a><a href="https://wheelco.bold-themes.com/main-demo/about-us/location/" target="_self"
+                  class="btIconWidget  btAccentIconWidget btWidgetWithText">
+                  <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf124;" class="bt_bb_icon_holder"></span>
+                  </div>
+                  <div class="btIconWidgetContent"><span class="btIconWidgetTitle">Location</span><span
+                      class="btIconWidgetText">1010 Avenue, NY</span></div>
+                </a><a href="https://wheelco.bold-themes.com/main-demo/about-us/location/" target="_self"
+                  class="btIconWidget  btAccentIconWidget btWidgetWithText">
+                  <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf017;" class="bt_bb_icon_holder"></span>
+                  </div>
+                  <div class="btIconWidgetContent"><span class="btIconWidgetTitle">Working hours</span><span
+                      class="btIconWidgetText">Mon - Sun: 9-17</span></div>
+                </a>
+              </div><!-- /topBarInLogoAreaCell -->
+            </div><!-- /topBarInLogoArea -->
+          </div><!-- /port -->
+        </div><!-- /menuHolder -->
+        <div class="btBelowLogoArea btClear">
+          <div class="port">
+            <div class="menuPort">
+              <div class="topBarInMenu">
+                <div class="topBarInMenuCell">
+                  <a href="https://www.facebook.com/boldthemes/" target="_blank" class="btIconWidget ">
+                    <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf09a;"
+                        class="bt_bb_icon_holder"></span></div>
+                  </a><a href="https://twitter.com/bold_themes" target="_blank" class="btIconWidget ">
+                    <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf099;"
+                        class="bt_bb_icon_holder"></span></div>
+                  </a><a href="#" target="_blank" class="btIconWidget ">
+                    <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf0e1;"
+                        class="bt_bb_icon_holder"></span></div>
+                  </a>
+                  <div class="btTopBox widget_search">
+                    <div class="btSearch">
+                      <div class="bt_bb_icon" data-bt-override-class="{}"><a href="#" target="_self"
+                          data-ico-fa="&#xf002;" class="bt_bb_icon_holder"></a></div>
+                      <div class="btSearchInner gutter" role="search">
+                        <div class="btSearchInnerContent port">
+                          <form action="https://wheelco.bold-themes.com/main-demo/" method="get"><input type="text"
+                              name="s" placeholder="Looking for..." class="untouched">
+                            <button type="submit" data-icon="&#xf105;"></button>
+                          </form>
+                          <div class="btSearchInnerClose">
+                            <div class="bt_bb_icon" data-bt-override-class="{}"><a href="#" target="_self"
+                                data-ico-fa="&#xf00d;" class="bt_bb_icon_holder"></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- /topBarInMenu -->
+              </div><!-- /topBarInMenuCell -->
+              <nav>
+                <ul id="menu-primary-menu" class="menu">
+                  <li id="menu-item-3332"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1067 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-3332">
+                    <a href="https://wheelco.bold-themes.com/main-demo/" aria-current="page">Home</a>
+                    <ul class="sub-menu">
+                      <li id="menu-item-3492"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1067 current_page_item menu-item-3492">
+                        <a href="https://wheelco.bold-themes.com/main-demo/" aria-current="page">Cargo</a></li>
+                      <li id="menu-item-3339"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3339"><a
+                          href="https://wheelco.bold-themes.com/main-demo/home/moving/">Moving</a></li>
+                      <li id="menu-item-3334"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3334"><a
+                          href="https://wheelco.bold-themes.com/main-demo/home/delivery/">Delivery</a></li>
+                      <li id="menu-item-3340"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3340"><a
+                          href="https://wheelco.bold-themes.com/main-demo/home/truck-rental/">Truck Rental</a></li>
+                      <li id="menu-item-3331"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3331"><a
+                          href="https://wheelco.bold-themes.com/main-demo/home/big-trucks/">Big Trucks</a></li>
+                      <li id="menu-item-3338"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3338"><a
+                          href="https://wheelco.bold-themes.com/main-demo/home/logistics/">Logistics</a></li>
+                      <li id="menu-item-3341"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3341"><a
+                          href="https://wheelco.bold-themes.com/main-demo/home/trucks-video/">Truck Video</a></li>
+                      <li id="menu-item-3333"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3333"><a
+                          href="https://wheelco.bold-themes.com/main-demo/home/courier/">Courier</a></li>
+                    </ul>
+                  </li>
+                  <li id="menu-item-3356"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3356">
+                    <a href="{% url 'services' %}">Services</a>
+                    
+                  </li>
+                  <li id="menu-item-3342"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3342">
+                    <a href="{% url 'about'%}">About Us</a>
+                    
+                  </li>
+                  
+                 
+                  <li id="menu-item-3345"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3345">
+                    <a href="{% url 'contact' %}">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+            </div><!-- .menuPort -->
+          </div><!-- /port -->
+        </div><!-- /menuHolder / btBelowLogoArea -->
+      </div><!-- / inner header for scrolling -->
+    </header><!-- /.mainHeader -->
