@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" data-bt-theme="Wheelco 1.1.9">
+<html lang="en-US" data-bt-theme="{{ app_name }} 1.1.9">
 
 <head>
 
@@ -22,6 +22,13 @@
   <link rel="alternate" type="application/rss+xml" title="Main Demo &raquo; Comments Feed"
     href="https://wheelco.bold-themes.com/main-demo/comments/feed/" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/all.min.css" integrity="sha512-rqQltXRuHxtPWhktpAZxLHUVJ3Eombn3hvk9PHjV/N5DMUYnzKPC1i3ub0mEXgFzsaZNeJcoE0YHq0j/GFsdGg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+
+
   
   <script type="text/javascript">
     window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/wheelco.bold-themes.com\/main-demo\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1" } };
@@ -4665,7 +4672,7 @@
 
     @font-face {
       font-family: "Design";
-      src: url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Design/Design.woff") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Design/Design.ttf") format("truetype");
+      src: url("{static 'Design.woff' }") format("woff"), url("https://wheelco.bold-themes.com/main-demo/wp-content/themes/wheelco/fonts/Design/Design.ttf") format("truetype");
     }
 
     *[data-ico-design]:before {
@@ -4943,56 +4950,47 @@
               <div class="topBarInLogoAreaCell">
                 <a href="https://wheelco.bold-themes.com/main-demo/about-us/contact/" target="_self"
                   class="btIconWidget  btAccentIconWidget btWidgetWithText">
-                  <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf095;" class="bt_bb_icon_holder"></span>
+                  <div class="btIconWidgetIcon"><i class="bi bi-telephone"></i>
                   </div>
                   <div class="btIconWidgetContent"><span class="btIconWidgetTitle">Call Centar</span><span
-                      class="btIconWidgetText">1-800-700-600</span></div>
+                      class="btIconWidgetText">{{ phone_number }}</span></div>
                 </a><a href="https://wheelco.bold-themes.com/main-demo/about-us/location/" target="_self"
                   class="btIconWidget  btAccentIconWidget btWidgetWithText">
-                  <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf124;" class="bt_bb_icon_holder"></span>
+                  <div class="btIconWidgetIcon"><i class="bi bi-geo-alt-fill"></i>
                   </div>
                   <div class="btIconWidgetContent"><span class="btIconWidgetTitle">Location</span><span
-                      class="btIconWidgetText">1010 Avenue, NY</span></div>
+                      class="btIconWidgetText">{{ address }}</span></div>
                 </a><a href="https://wheelco.bold-themes.com/main-demo/about-us/location/" target="_self"
                   class="btIconWidget  btAccentIconWidget btWidgetWithText">
-                  <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf017;" class="bt_bb_icon_holder"></span>
+                  <div class="btIconWidgetIcon"><span >
+                    <i class="bi bi-alarm"></i>
+                  </span>
                   </div>
-                  <div class="btIconWidgetContent"><span class="btIconWidgetTitle">Working hours</span><span
+                  <div class="btIconWidgetContent"><span class="">Working hours</span><span
                       class="btIconWidgetText">Mon - Sun: 9-17</span></div>
                 </a>
               </div><!-- /topBarInLogoAreaCell -->
             </div><!-- /topBarInLogoArea -->
           </div><!-- /port -->
         </div><!-- /menuHolder -->
+
+        
         <div class="btBelowLogoArea btClear">
           <div class="port">
             <div class="menuPort">
               <div class="topBarInMenu">
                 <div class="topBarInMenuCell">
-                  <a href="https://www.facebook.com/boldthemes/" target="_blank" class="btIconWidget ">
-                    <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf09a;"
-                        class="bt_bb_icon_holder"></span></div>
-                  </a><a href="https://twitter.com/bold_themes" target="_blank" class="btIconWidget ">
-                    <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf099;"
-                        class="bt_bb_icon_holder"></span></div>
-                  </a><a href="#" target="_blank" class="btIconWidget ">
-                    <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf0e1;"
-                        class="bt_bb_icon_holder"></span></div>
-                  </a>
+                  
                   <div class="btTopBox widget_search">
                     <div class="btSearch">
-                      <div class="bt_bb_icon" data-bt-override-class="{}"><a href="#" target="_self"
-                          data-ico-fa="&#xf002;" class="bt_bb_icon_holder"></a></div>
+                      
                       <div class="btSearchInner gutter" role="search">
                         <div class="btSearchInnerContent port">
                           <form action="https://wheelco.bold-themes.com/main-demo/" method="get"><input type="text"
                               name="s" placeholder="Looking for..." class="untouched">
                             <button type="submit" data-icon="&#xf105;"></button>
                           </form>
-                          <div class="btSearchInnerClose">
-                            <div class="bt_bb_icon" data-bt-override-class="{}"><a href="#" target="_self"
-                                data-ico-fa="&#xf00d;" class="bt_bb_icon_holder"></a></div>
-                          </div>
+                          
                         </div>
                       </div>
                     </div>
@@ -5025,6 +5023,8 @@
               </nav>
             </div><!-- .menuPort -->
           </div><!-- /port -->
-        </div><!-- /menuHolder / btBelowLogoArea -->
+        </div>
+        
+        <!-- /menuHolder / btBelowLogoArea -->
       </div><!-- / inner header for scrolling -->
     </header><!-- /.mainHeader -->
